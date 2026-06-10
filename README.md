@@ -1,7 +1,8 @@
 # Principles
 
-The canonical, domain-neutral principles corpus for the pentaxis93
-ecosystem — the single source of truth every project consumes. Each
+My canonical, domain-neutral principles corpus — the single source
+of truth I carry into every project. Any project may link here; none
+keep a local copy. Each
 principle is stated at its universal level: the invariant that holds
 across any domain. The familiar domain forms — DRY, "one mechanism, not
 two," "fail explicitly" — attach to their universals as **projections**,
