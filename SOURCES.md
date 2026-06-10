@@ -1,0 +1,112 @@
+# Source Coverage Map
+
+Every item in the four source registers named by
+[pentaxis93/principles#1](https://github.com/pentaxis93/principles/issues/1),
+classified as exactly one of:
+
+- **ascended** — its content was raised to its universal level and lives
+  in a canonical principle (possibly merged with sibling statements of
+  the same invariant);
+- **projection** — attached as a domain projection or corollary inside
+  the named universal's document;
+- **retained** — a genuine decision or design artifact; it stays in its
+  home and is not a principle (it may still *instantiate* principles,
+  noted where true);
+- **out of scope** — not corpus material, with the reason stated.
+
+The reverse traversal lives in the principle documents themselves: each
+universal's **Sources** section links back to every register item that
+shaped it.
+
+## Register 1 — `tesserine/commons/PRINCIPLES.md` (7 principles + topology)
+
+| Item | Classification | Destination |
+|---|---|---|
+| 1. Sovereignty | ascended | [Sovereignty](principles/sovereignty.md) |
+| 2. Sequence | ascended | [Sequence](principles/sequence.md) |
+| 3. Grounding | ascended | [Grounding](principles/grounding.md) |
+| 4. Obligation to Dissent | ascended | [Obligation to Dissent](principles/obligation-to-dissent.md) |
+| 5. Recursive Improvement | ascended | [Recursive Improvement](principles/recursive-improvement.md) |
+| 6. Transmission | ascended | [Transmission](principles/transmission.md) |
+| 7. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
+| Compass topology (N/E/S/W + center) | ascended | The four-movement topology supersedes the compass arrangement ([README](README.md#the-topology) states why); the compass's named-failure diagnostic and its center claim (the spiral) are retained in the topology section |
+
+## Register 2 — `tesserine/commons/DESIGN-PRINCIPLES.md` (21 design principles)
+
+| Item | Classification | Destination |
+|---|---|---|
+| 1. Relentlessly replace brittle with robust | projection | [Evolvability](principles/evolvability.md) |
+| 2. One mechanism, not two | projection | [Single Home](principles/single-home.md) |
+| 3. Eliminate the class, not the instance | projection | [Source Repair](principles/source-repair.md) |
+| 4. Computed over stored for derived state | projection | [Single Home](principles/single-home.md) |
+| 5. Policy over status tracking | projection | [Parsimony](principles/parsimony.md) |
+| 6. Silent code teaches louder than docs | projection | [Honest Signal](principles/honest-signal.md) |
+| 7. Trace assumptions to their origin | projection | [Source Repair](principles/source-repair.md) |
+| 8. Fixes belong at discovery, not deferred | projection | [Obligation to Dissent](principles/obligation-to-dissent.md) |
+| 9. Name what it is, not what you wish it were | projection | [Honest Signal](principles/honest-signal.md) |
+| 10. Fail explicitly, never silently | projection | [Honest Signal](principles/honest-signal.md) |
+| 11. Ship correct, then optimize | projection | [Honest Signal](principles/honest-signal.md) (corollary *prefer absence to wrongness*) |
+| 12. Omit rather than half-implement | projection | [Honest Signal](principles/honest-signal.md) (corollary *prefer absence to wrongness*) |
+| 13. Self-maintaining over maintainer-dependent | projection | [Single Home](principles/single-home.md) |
+| 14. Spec and implementation are separate scopes | projection | [Sovereignty](principles/sovereignty.md) |
+| 15. Ground to needs, not to code | projection | [Grounding](principles/grounding.md) |
+| 16. Fix is the default disposition | projection | [Obligation to Dissent](principles/obligation-to-dissent.md) |
+| 17. Interfaces describe themselves | projection | [Transmission](principles/transmission.md) |
+| 18. Schema is the source; documentation is derived | projection | [Single Home](principles/single-home.md) |
+| 19. Uniform patterns across surfaces | projection | [Transmission](principles/transmission.md) |
+| 20. Verify before act | projection | [Verifiable Completion](principles/verifiable-completion.md) |
+| 21. Mode is a property of the session, not the operation | projection | [Sovereignty](principles/sovereignty.md) |
+
+## Register 3 — `tesserine/commons/adr/` (15 ADRs)
+
+The discriminator (from #1): a **principle** is a domain-neutral
+invariant reasoned *from*; a genuine **ADR** records a concrete decision
+that *applies* a principle. Consult the Decision's shape, not the label.
+
+| Item | Classification | Destination / reason |
+|---|---|---|
+| ADR-0001 Sovereignty | ascended | [Sovereignty](principles/sovereignty.md) — its Decision states a durable truth ("every interface has a clean ownership boundary"), not a choice among alternatives |
+| ADR-0002 Everything Earns Its Place | ascended | Split as the ADR itself directs ("two disciplines combine here"): entry discipline to [Grounding](principles/grounding.md), removal discipline to [Parsimony](principles/parsimony.md) |
+| ADR-0003 Unconditional Responsibility | ascended | [Obligation to Dissent](principles/obligation-to-dissent.md) (projection *unconditional responsibility*) |
+| ADR-0004 Compound Improvement | ascended | [Recursive Improvement](principles/recursive-improvement.md) |
+| ADR-0005 System Conventions for Cross-Component Artifacts | retained | Genuine decision: commons as spec authority, canonical pair form, versioning and vendoring mechanics. Instantiates [Single Home](principles/single-home.md) and [Sovereignty](principles/sovereignty.md) |
+| ADR-0006 Release Discipline for Cargo-Workspace Repos | retained | Genuine decision: cargo-release as canonical tool, the workspace-version invariant. Instantiates [Honest Signal](principles/honest-signal.md) and [Verifiable Completion](principles/verifiable-completion.md) |
+| ADR-0007 Day-One Stance | ascended | Distributed at its joints: provisionality and reversible-decision velocity to [Evolvability](principles/evolvability.md); resist-proxies to [Grounding](principles/grounding.md); customer-obsession to [Grounding](principles/grounding.md)/[Transmission](principles/transmission.md). Its Decision states an orientation, not a choice |
+| ADR-0008 Component Orthogonality in Session Composition | retained | Genuine decision: the agentd/runa/agent-declaration composition architecture. Its general-principle consequence shaped a [Sovereignty](principles/sovereignty.md) projection |
+| ADR-0009 Operator Metrics Convention | retained | Genuine decision: listener separation, exposition format, naming and cardinality policy |
+| ADR-0010 Deployment Release Candidates | retained | Genuine decision: immutable RC tags, image-label identity |
+| ADR-0011 Ecosystem Release Identity and Ceremony | retained | Genuine decision: the release manifest as canonical identity artifact |
+| ADR-0012 Ecosystem Release Version Grammar | retained | Genuine decision: SemVer grammar and the canonical tag regex |
+| ADR-0013 Procedure Substrate Discipline | projection | [Source Repair](principles/source-repair.md) (projection *procedure substrate discipline*) — a meta-discipline by its own statement; its Decision is a durable behavioral invariant, not a tool or convention choice |
+| ADR-0014 Component-Independent Versioning | retained | Genuine decision: curatorial ecosystem versioning, BOM pattern |
+| ADR-0015 Mode Is a Property of the Session | retained | Genuine decision: it binds the runtime's dual-mode contracts. Its principle content enters the corpus via Design Principle 21 → [Sovereignty](principles/sovereignty.md) |
+
+## Register 4 — `pentaxis93/with-claude/_shared/principles.md` (13 principles + topology)
+
+| Item | Classification | Destination |
+|---|---|---|
+| 1. Grounding | ascended | [Grounding](principles/grounding.md) |
+| 2. Read The Manual | projection | [Grounding](principles/grounding.md) (projection *read the manual*; isomorphic to Single Home's *consult, don't model*) |
+| 3. Sovereignty | ascended | [Sovereignty](principles/sovereignty.md) |
+| 4. Sequence | ascended | [Sequence](principles/sequence.md) |
+| 5. Parsimony | ascended | [Parsimony](principles/parsimony.md) — except its "one mechanism" clause, whose invariant ascends to [Single Home](principles/single-home.md) |
+| 6. Source Repair | ascended | [Source Repair](principles/source-repair.md); its honest-surfaces clause to [Honest Signal](principles/honest-signal.md) |
+| 7. Obligation To Dissent | ascended | [Obligation to Dissent](principles/obligation-to-dissent.md) |
+| 8. Recursive Improvement | ascended | [Recursive Improvement](principles/recursive-improvement.md) |
+| 9. Design For Evolvability | ascended | [Evolvability](principles/evolvability.md) (merged with §10, the register's own named dual) |
+| 10. Scale-Honest Design | ascended | [Evolvability](principles/evolvability.md) (corollary *scale honesty*) |
+| 11. Transmission | ascended | [Transmission](principles/transmission.md) |
+| 12. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
+| 13. Consult, Don't Reimplement | projection | [Single Home](principles/single-home.md) (corollary *consult, don't model*), carrying its soundness-condition edge to [Verifiable Completion](principles/verifiable-completion.md) |
+| Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([README](README.md#the-topology) states why), extended with the compass's failure diagnostics |
+| Feedback-loop footer (`asset:principles` route) | ascended | Relocated: future corpus friction is filed against this repository ([README](README.md#evolving-this-corpus)) |
+
+## Inbound change-vectors resolved natively
+
+Two open with-claude reckons were resolved by this synthesis rather than
+left as later enrichment, per #110's direction:
+
+| Item | Resolution |
+|---|---|
+| [with-claude#91](https://github.com/pentaxis93/with-claude/issues/91) — principle interrelationships want a curated, evolving structure | The corpus's typed relationship taxonomy ([README](README.md#the-relationship-taxonomy)) and per-principle **Relations** sections are that structure: present-tense, curated, not ADR-shaped |
+| [with-claude#96](https://github.com/pentaxis93/with-claude/issues/96) — single home as the evolvability boundary | Its open question ("new principle or enrichment edge?") resolves as: the evolvability-boundary argument is the second rationale of the ascended universal [Single Home](principles/single-home.md), and its bridge to the spiral is the **enables** edge to [Recursive Improvement](principles/recursive-improvement.md) |

@@ -1,0 +1,92 @@
+# Grounding
+
+**Movement:** I — Ground · [Index](../README.md)
+
+> **Invariant:** Reason from what is needed, not from what exists.
+
+## The universal
+
+Everything that already exists — code, documents, structures, habits, prior
+decisions, current behavior — is evidence about one past attempt to meet a
+need. It is not the need. Grounding distinguishes descriptive truth (what
+is) from normative truth (what must be enabled now), and starts generative
+work from the normative side. For diagnosis the polarity flips: material
+truth — what actually happened, what the artifact actually says — is the
+starting point, because diagnosis is about what is, not what ought to be.
+
+The same invariant governs measurement. Tests, milestones, metrics, and
+checklists are proxies that stand in for the need; when a proxy and the
+need it measures diverge, the need is served and the proxy is repaired.
+Satisfying the instrument while the foundation drifts is the
+characteristic grounding failure at the system level, just as treating
+current behavior as the definition of correct behavior is the
+characteristic grounding failure at the artifact level.
+
+Grounding re-fires on every generative act, not once at the start of a
+project. The trigger is creation, not position.
+
+**Recognition:** You are organizing the current state, optimizing inside an
+inherited frame, treating an existing structure as the definition of what
+should exist, or working to satisfy an instrument rather than the thing it
+measures.
+
+**Corrective:** Ask: what must this enable, for whom, and what evidence
+proves that need? Use the existing substrate only after that answer
+exists — as comparison material or diagnostic evidence.
+
+## Projections
+
+### Ground to needs, not to code *(software design)*
+
+Code is current state, not ground truth. Ground to what is needed, then
+compare the code to what the needs require. Treating what the system
+currently does as the definition of what it should do is the most common
+grounding failure.
+— *Source: commons `DESIGN-PRINCIPLES.md` §15.*
+
+### Read the manual *(cognition)*
+
+Where an authoritative account of a topic exists, read it before forming
+questions, objections, or designs about that topic. Reasoning from priors
+where the account exists produces *confident* error — the same mind is
+sharp after reading and clueless before, and cannot tell which state it is
+in from the inside. The manual is the input grounding depends on. When a
+source names its own source, the pointer is an instruction, not a
+citation: follow it to the territory.
+— *Source: with-claude `_shared/principles.md` §2. Isomorphic to
+[Single Home](single-home.md)'s consult-don't-model corollary: the same
+move in cognition that the guard makes in enforcement.*
+
+### Resist proxies *(process)*
+
+Instruments — tests, CI gates, review checklists, release tags — serve the
+foundation they measure. A passing test whose passing required narrowing a
+surfaced gap is not success; a failing test that surfaces something real
+is not obstruction. Treating instrument satisfaction as the goal destroys
+the information channel the instrument exists to provide.
+— *Source: commons ADR-0007 (Day-One Stance), "Resist proxies."*
+
+### The recipient is ground truth *(delivery)*
+
+The humans and systems that consume the work are the authoritative signal
+for whether it is sound. Internal markers of progress — issues closed,
+commits made, tests passing — are proxies. When they disagree with the
+consumer's experience, the consumer's experience wins.
+— *Source: commons ADR-0007, "Customer obsession." Edge to
+[Transmission](transmission.md).*
+
+## Relations
+
+- **composition** — [Parsimony](parsimony.md) ∘ Grounding yields
+  *everything earns its place*: grounding prevents unearned elements from
+  entering; parsimony removes them when they lose their justification
+  (commons ADR-0002 states this composition explicitly).
+- **enables** — [Sequence](sequence.md) places grounding before design
+  because inherited framing is the failure mode at that boundary.
+
+## Sources
+
+- `tesserine/commons` [`PRINCIPLES.md`](https://github.com/tesserine/commons/blob/main/PRINCIPLES.md) §3 (Grounding)
+- `tesserine/commons` [`DESIGN-PRINCIPLES.md`](https://github.com/tesserine/commons/blob/main/DESIGN-PRINCIPLES.md) §15
+- `tesserine/commons` [ADR-0002](https://github.com/tesserine/commons/blob/main/adr/0002-everything-earns-its-place.md), [ADR-0007](https://github.com/tesserine/commons/blob/main/adr/0007-day-one-stance.md)
+- `pentaxis93/with-claude` [`_shared/principles.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/principles.md) §1 (Grounding), §2 (Read The Manual)
