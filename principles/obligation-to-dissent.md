@@ -60,6 +60,9 @@ silently. When in doubt, fix.
 - **enables** — [Recursive Improvement](recursive-improvement.md):
   surfaced friction is the spiral's raw material; swallowed friction
   starves it.
+- **composition** —
+  [Completed Noticing](../compositions/completed-noticing.md): *fix,
+  file, or halt* is the cycle's Respond move.
 
 ## Sources
 

@@ -61,6 +61,9 @@ both levels.
   [Source Repair](source-repair.md): dissent surfaces the friction,
   source repair directs it at the producer; the spiral is what they
   compound into.
+- **composition** —
+  [Completed Noticing](../compositions/completed-noticing.md): the
+  spiral is the cycle's Repeat move — residue exposed to the next turn.
 
 ## Sources
 

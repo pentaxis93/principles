@@ -26,6 +26,13 @@ distillation. (That rule is itself one of these principles:
   register item.
 - **Relations** — typed edges between principles, in each document's
   **Relations** section.
+- **Named compositions** — disciplines made of several universals acting
+  together, under [`compositions/`](compositions/). A composition earns
+  a document only when it carries content no edge can hold (its own
+  invariant, its own failure modes); otherwise it lives as a
+  **composition** edge in its constituents' Relations. Each document's
+  constituents carry reciprocal edges back to it. First instance:
+  [Completed Noticing](compositions/completed-noticing.md).
 - **[SOURCES.md](SOURCES.md)** — the coverage map: every item of the
   five source registers and its classification. This is the reverse
   index, from a familiar domain form to its universal.
@@ -81,7 +88,7 @@ ontology:
 |---|---|---|
 | **projection** | A universal instantiated in a domain | Single Home → *computed over stored* (state management) |
 | **corollary** | A same-level consequence derivable from a universal | Honest Signal → *prefer absence to wrongness* |
-| **composition** | A discipline made of two or more universals acting together | *Everything earns its place* = Grounding ∘ Parsimony |
+| **composition** | A discipline made of two or more universals acting together; one that carries content no edge can hold gets its own document under [`compositions/`](compositions/) | *Everything earns its place* = Grounding ∘ Parsimony; [Completed Noticing](compositions/completed-noticing.md) (documented) |
 | **dual** | One invariant seen from two aspects (design-time/runtime, object/process) | Evolvability ↔ Recursive Improvement |
 | **isomorphism** | The same move recurring in different domains | *Read the manual* (cognition) ≅ *consult, don't model* (enforcement) |
 | **enables** | One principle is the precondition of another | Single Home → Recursive Improvement (the spiral needs a bounded asset) |

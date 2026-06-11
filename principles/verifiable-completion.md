@@ -62,6 +62,10 @@ paid once; the cost of acting on stale assumptions is paid every call.
   audited, at two sites — completion claims and reasoning.
 - **enabled-by** — [Sequence](sequence.md): verification-before-claim is
   sequence applied to the final boundary of a unit of work.
+- **composition** —
+  [Completed Noticing](../compositions/completed-noticing.md): *verify
+  before act* is half of the cycle's Verify move; the evidence-first
+  completion claim is half of its Release.
 
 ## Sources
 
