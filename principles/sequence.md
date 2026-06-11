@@ -55,6 +55,10 @@ named stage ordering).*
   a unit of work.
 - **composition** — Sequence ∘ [Grounding](grounding.md): grounding is
   the first stage because every later stage consumes its output.
+- **composition** —
+  [Completed Noticing](../compositions/completed-noticing.md): the
+  cycle's ordering — each move produces the ground the next requires —
+  is owned by Sequence.
 
 ## Sources
 

@@ -104,6 +104,9 @@ consumer's experience, the consumer's experience wins.
   *everything earns its place*: grounding prevents unearned elements from
   entering; parsimony removes them when they lose their justification
   (commons ADR-0002 states this composition explicitly).
+- **composition** —
+  [Completed Noticing](../compositions/completed-noticing.md): grounding
+  is the cycle's Attend move, and its diagnostic face is half of Verify.
 - **enables** — [Sequence](sequence.md) places grounding before design
   because inherited framing is the failure mode at that boundary.
 

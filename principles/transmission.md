@@ -59,6 +59,9 @@ surfaces that disagreement is allowed.
   the artifact land in that reality.
 - **enabled-by** — [Sovereignty](sovereignty.md): a clean WHAT is the
   transmissible form of intent — the recipient owns their HOW.
+- **composition** —
+  [Completed Noticing](../compositions/completed-noticing.md):
+  recipient-readability is half of the cycle's Release move.
 
 ## Sources
 
