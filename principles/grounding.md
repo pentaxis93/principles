@@ -8,7 +8,10 @@
 
 Everything that already exists — code, documents, structures, habits, prior
 decisions, current behavior — is evidence about one past attempt to meet a
-need. It is not the need. Grounding distinguishes descriptive truth (what
+need. It is not the need. The invariant holds laterally as well as
+historically: an adjacent problem's solution is evidence about another
+need's attempt, not a template for this one — each problem is reasoned
+from its own constraints. Grounding distinguishes descriptive truth (what
 is) from normative truth (what must be enabled now), and starts generative
 work from the normative side. For diagnosis the polarity flips: material
 truth — what actually happened, what the artifact actually says — is the
@@ -27,12 +30,15 @@ project. The trigger is creation, not position.
 
 **Recognition:** You are organizing the current state, optimizing inside an
 inherited frame, treating an existing structure as the definition of what
-should exist, or working to satisfy an instrument rather than the thing it
-measures.
+should exist, working to satisfy an instrument rather than the thing it
+measures, or importing a conclusion from an adjacent problem because "we
+already solved this."
 
 **Corrective:** Ask: what must this enable, for whom, and what evidence
 proves that need? Use the existing substrate only after that answer
-exists — as comparison material or diagnostic evidence.
+exists — as comparison material or diagnostic evidence. Re-derive any
+imported solution from this problem's constraints: if the same answer
+emerges, the import is validated; if not, it was wrong for this context.
 
 ## Projections
 
@@ -57,6 +63,19 @@ citation: follow it to the territory.
 [Single Home](single-home.md)'s consult-don't-model corollary: the same
 move in cognition that the guard makes in enforcement.*
 
+### Form follows the problem *(design)*
+
+Structure arises from the problem, not from the designer's habits or
+adjacent examples. The test is isomorphism: the form of the solution
+maps to the problem it solves, with nothing imposed from outside the
+constraints. A design can look good and fail this test — the shape came
+from a familiar pattern, a preferred style, an adjacent architecture —
+so the corrective is to derive the structure the problem itself demands,
+then compare with what you have.
+— *Source: groundwork reckon §Navigational Principles 2 (Elegance), its
+derivation clause; the isomorphism's compression face — nothing beyond
+what the need demands — is [Parsimony](parsimony.md)'s elegance face.*
+
 ### Resist proxies *(process)*
 
 Instruments — tests, CI gates, review checklists, release tags — serve the
@@ -77,6 +96,10 @@ consumer's experience, the consumer's experience wins.
 
 ## Relations
 
+- **dual** — [Traceability](traceability.md): position and momentum.
+  Grounding establishes what is true at the start of reasoning;
+  Traceability keeps every subsequent inference anchored to it. Two
+  faces of one act.
 - **composition** — [Parsimony](parsimony.md) ∘ Grounding yields
   *everything earns its place*: grounding prevents unearned elements from
   entering; parsimony removes them when they lose their justification
@@ -90,3 +113,4 @@ consumer's experience, the consumer's experience wins.
 - `tesserine/commons` [`DESIGN-PRINCIPLES.md`](https://github.com/tesserine/commons/blob/main/DESIGN-PRINCIPLES.md) §15
 - `tesserine/commons` [ADR-0002](https://github.com/tesserine/commons/blob/main/adr/0002-everything-earns-its-place.md), [ADR-0007](https://github.com/tesserine/commons/blob/main/adr/0007-day-one-stance.md)
 - `pentaxis93/with-claude` [`_shared/principles.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/principles.md) §1 (Grounding), §2 (Read The Manual)
+- `tesserine/groundwork` [`skills/reckon/SKILL.md`](https://github.com/tesserine/groundwork/blob/main/skills/reckon/SKILL.md) §Navigational Principles 5 (Independence — ascended into the universal's lateral form) and 2 (Elegance, derivation clause — attached as the *form follows the problem* projection)

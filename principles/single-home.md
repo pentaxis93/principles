@@ -63,7 +63,11 @@ Reimplement).*
 When two systems must agree, make them one system. If a remediation
 patches a second filter to match a first, look for the architectural fix
 that eliminates the class.
-— *Source: commons `DESIGN-PRINCIPLES.md` §2.*
+— *Source: commons `DESIGN-PRINCIPLES.md` §2. The same words name a
+[Parsimony](parsimony.md) face when nothing must agree — groundwork
+reckon's "one mechanism over two" removes an undemanded second mechanism
+rather than unifying two loci. The discriminator: must the two agree?
+If yes, unify here; if the second is merely unearned, remove it there.*
 
 ### Computed over stored *(state)*
 
