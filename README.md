@@ -31,8 +31,9 @@ distillation. (That rule is itself one of these principles:
   a document only when it carries content no edge can hold (its own
   invariant, its own failure modes); otherwise it lives as a
   **composition** edge in its constituents' Relations. Each document's
-  constituents carry reciprocal edges back to it. First instance:
-  [Completed Noticing](compositions/completed-noticing.md).
+  constituents carry reciprocal edges back to it. Instances:
+  [Completed Noticing](compositions/completed-noticing.md) ·
+  [Dosed Compliance](compositions/dosed-compliance.md).
 - **[SOURCES.md](SOURCES.md)** — the coverage map: every item of the
   five source registers and its classification. This is the reverse
   index, from a familiar domain form to its universal.
