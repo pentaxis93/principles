@@ -16,7 +16,7 @@ distillation. (That rule is itself one of these principles:
 
 ## The structure
 
-- **Universal core** — twelve principles, one document each, under
+- **Universal core** — thirteen principles, one document each, under
   [`principles/`](principles/). Each document carries the invariant, its
   exposition, recognition and corrective signals, its corollaries and
   projections, and its typed relations to other principles.
@@ -27,7 +27,7 @@ distillation. (That rule is itself one of these principles:
 - **Relations** — typed edges between principles, in each document's
   **Relations** section.
 - **[SOURCES.md](SOURCES.md)** — the coverage map: every item of the
-  four source registers and its classification. This is the reverse
+  five source registers and its classification. This is the reverse
   index, from a familiar domain form to its universal.
 
 ## The topology
@@ -38,7 +38,7 @@ move in order — the corpus obeys its own
 
 | Movement | Question it answers | Principles |
 |---|---|---|
-| **I — Ground** | What is true, and who owns what? | [Grounding](principles/grounding.md) · [Sovereignty](principles/sovereignty.md) · [Sequence](principles/sequence.md) |
+| **I — Ground** | What is true, and who owns what? | [Grounding](principles/grounding.md) · [Traceability](principles/traceability.md) · [Sovereignty](principles/sovereignty.md) · [Sequence](principles/sequence.md) |
 | **II — Shape** | Is the answer earned, single, and durable? | [Parsimony](principles/parsimony.md) · [Single Home](principles/single-home.md) · [Evolvability](principles/evolvability.md) |
 | **III — Protect** | Does the system tell the truth and repair itself? | [Honest Signal](principles/honest-signal.md) · [Source Repair](principles/source-repair.md) · [Obligation to Dissent](principles/obligation-to-dissent.md) · [Recursive Improvement](principles/recursive-improvement.md) |
 | **IV — Land** | Can the recipient act, and is completion a fact? | [Transmission](principles/transmission.md) · [Verifiable Completion](principles/verifiable-completion.md) |
@@ -49,7 +49,7 @@ shape, is protected, lands — and the friction of landing feeds the next
 turn. Remove a movement and the rest deform, each in a named way:
 
 - *No Ground:* elegant fiction — sovereignty confusion, inherited
-  framing, arbitrary order. The system cannot see.
+  framing, untraceable chains, arbitrary order. The system cannot see.
 - *No Shape:* sprawl — unearned weight, duplicated truth, forward debt.
   The system calcifies.
 - *No Protect:* decay — silent surfaces, patched symptoms, swallowed
@@ -64,8 +64,12 @@ survived contact with the larger register, and it carries meaning in its
 order — each movement produces the ground the next requires — where the
 compass arrangement is positional only. It was therefore adopted and
 enriched with what the compass did better: the named-failure diagnostic
-(above) and the explicit center. Twelve universals is what the actual
-material ascended to; neither source count (7 or 13) was a target.
+(above) and the explicit center. Thirteen universals is what the actual
+material ascended to — twelve from the four synthesis registers, the
+thirteenth ([Traceability](principles/traceability.md)) when the fifth
+register was classified
+([#2](https://github.com/pentaxis93/principles/issues/2)); no source
+count was ever a target.
 
 ## The relationship taxonomy
 
@@ -115,6 +119,10 @@ Synthesized 2026-06-10 from four source registers —
 `tesserine/commons` `PRINCIPLES.md`, `DESIGN-PRINCIPLES.md`, and
 `adr/`; `pentaxis93/with-claude` `_shared/principles.md` — per the
 epic [pentaxis93/principles#1](https://github.com/pentaxis93/principles/issues/1).
+A fifth register — `tesserine/groundwork` `skills/reckon/SKILL.md`
+§Navigational Principles — was discovered after the synthesis and
+classified 2026-06-11 per
+[#2](https://github.com/pentaxis93/principles/issues/2).
 The synthesis operation was Ascent: deriving each universal from its
 fragmented instantiations, then re-attaching the instantiations as
 projections. The full per-item sort, including which commons ADRs are

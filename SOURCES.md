@@ -1,7 +1,9 @@
 # Source Coverage Map
 
-Every item in the four source registers named by
-[pentaxis93/principles#1](https://github.com/pentaxis93/principles/issues/1),
+Every item in the five source registers — the four named by
+[pentaxis93/principles#1](https://github.com/pentaxis93/principles/issues/1)
+and a fifth discovered after the synthesis
+([pentaxis93/principles#2](https://github.com/pentaxis93/principles/issues/2)) —
 classified as exactly one of:
 
 - **ascended** — its content was raised to its universal level and lives
@@ -100,6 +102,26 @@ that *applies* a principle. Consult the Decision's shape, not the label.
 | 13. Consult, Don't Reimplement | projection | [Single Home](principles/single-home.md) (corollary *consult, don't model*), carrying its soundness-condition edge to [Verifiable Completion](principles/verifiable-completion.md) |
 | Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([README](README.md#the-topology) states why), extended with the compass's failure diagnostics |
 | Feedback-loop footer (`asset:principles` route) | ascended | Relocated: future corpus friction is filed against this repository ([README](README.md#evolving-this-corpus)) |
+
+## Register 5 — `tesserine/groundwork` `skills/reckon/SKILL.md` §Navigational Principles (5 principles + preamble)
+
+Discovered after the synthesis
+([#2](https://github.com/pentaxis93/principles/issues/2)): reckon names
+five "first principles you reason FROM during reconstruction" —
+principle-shaped by this corpus's own discriminator. The downstream
+repair (reckon consults this corpus instead of carrying a second
+editable register) is
+[tesserine/groundwork#387](https://github.com/tesserine/groundwork/issues/387),
+gated on this classification landing.
+
+| Item | Classification | Destination / reason |
+|---|---|---|
+| Preamble ("select during Orient... fire during Reconstruct") | retained | Skill deployment mechanics — reasoned *with*, not *from*; its "constants that govern, not goals to optimize" clause restates this corpus's own discriminator |
+| 1. Parsimony | ascended | [Parsimony](principles/parsimony.md) — the razor: among rival explanations or designs meeting the same constraints, fewer moving parts wins until a constraint demands more. Its "one mechanism over two" wording is a homonym of [Single Home](principles/single-home.md)'s *one mechanism, not two* (two loci that must agree); reckon's statement carries no agreement obligation — its corrective is removal, not unification — so Parsimony owns it (disambiguated in both documents) |
+| 2. Elegance | projection (split) | Derivation clause ("structure arises from the problem, not the designer's habits or adjacent examples") → [Grounding](principles/grounding.md), projection *form follows the problem*; isomorphism clause ("nothing is imposed") → [Parsimony](principles/parsimony.md)'s existing *elegance* face |
+| 3. Sufficiency | ascended | [Parsimony](principles/parsimony.md) — a sibling statement of the universal's disciplined-completeness clause ("disciplined completeness" appears verbatim in both); its "each unjustified element is a carrying cost" sharpening absorbed |
+| 4. Traceability | ascended | [Traceability](principles/traceability.md) — **new universal** (Movement I, dual with [Grounding](principles/grounding.md)). Not attachable as a corollary because not derivable: reckon's *grounded-then-analogical* corruption mode documents reasoning that satisfied Grounding fully and still failed ("correct position, analogical momentum"), and no existing universal's recognition catches mid-chain drift |
+| 5. Independence | ascended | [Grounding](principles/grounding.md) — the invariant generalized laterally: an adjacent problem's solution is evidence about another need's attempt, not a template for this one; re-derivation is the validation test |
 
 ## Inbound change-vectors resolved natively
 

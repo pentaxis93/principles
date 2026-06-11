@@ -57,6 +57,9 @@ paid once; the cost of acting on stale assumptions is paid every call.
   governs.
 - **kin** — [Honest Signal](honest-signal.md): surfaces must not lie;
   claims must not outrun evidence. Same demand, two sites.
+- **kin** — [Traceability](traceability.md): evidence decides the claim;
+  the chain decides the conclusion. Nothing asserted beyond what can be
+  audited, at two sites — completion claims and reasoning.
 - **enabled-by** — [Sequence](sequence.md): verification-before-claim is
   sequence applied to the final boundary of a unit of work.
 
