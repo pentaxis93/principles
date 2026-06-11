@@ -107,6 +107,10 @@ consumer's experience, the consumer's experience wins.
 - **composition** —
   [Completed Noticing](../compositions/completed-noticing.md): grounding
   is the cycle's Attend move, and its diagnostic face is half of Verify.
+- **composition** —
+  [Dosed Compliance](../compositions/dosed-compliance.md): grounding
+  supplies the goal-not-gate move — the gate is an instrument, the need
+  is that the property holds.
 - **enables** — [Sequence](sequence.md) places grounding before design
   because inherited framing is the failure mode at that boundary.
 

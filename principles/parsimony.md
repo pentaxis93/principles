@@ -67,6 +67,10 @@ machinery to manage it — the mechanism was never earned.
   what is genuinely needed. The pair bounds the same axis from opposite
   sides — the shape is demanded by the need, including the need to keep
   changing.
+- **composition** —
+  [Dosed Compliance](../compositions/dosed-compliance.md): parsimony
+  supplies the dose — an extreme or costly lever earns its place by a
+  verified constraint or is not built.
 - **kin** — [Single Home](single-home.md): a duplicate is a special case
   of an unearned element, but duplication's deeper cost (divergence and
   the dissolved evolution boundary) is Single Home's argument.
