@@ -20,6 +20,10 @@ The reverse traversal lives in the principle documents themselves: each
 universal's **Sources** section links back to every register item that
 shaped it.
 
+Invariants that recurred across the registers and consumer methodology
+and ascended after the founding synthesis are classified in their own
+**post-synthesis ascent** sections below, with the same vocabulary.
+
 ## Register 1 — `tesserine/commons/PRINCIPLES.md` (7 principles + topology)
 
 | Item | Classification | Destination |

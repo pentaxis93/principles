@@ -33,7 +33,12 @@ because history is its job; a scope exclusion in an issue is a
 decision, not a scar. Apparent exceptions — prohibitions such as
 "never log secrets" — restate positively ("every emitted line is
 secret-free"), and the positive form is the one a check can verify:
-the tell that the principle holds there too.
+the tell that the principle holds there too. Contrast is not the
+defect either: a positive claim may name the nearest confusion to
+fence itself off — "say what should be true, not what steps to take" —
+and the claim still lives in the positive sentence. The defect is
+negation *as* the claim: an assertion whose entire content is an
+absence.
 
 **Recognition:** A durable claim leans on "does not," "no longer,"
 "previously," "instead of," or "moved away from." A criterion asserts
