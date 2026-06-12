@@ -104,6 +104,10 @@ itself exists under). DRY is this projection at the scale of code.*
 
 ## Relations
 
+- **composition** — [Positive Form](positive-form.md) ∘ Single Home
+  yields *history lives in version control*: a durable claim is
+  present-only (Positive Form), and history has exactly one home — the
+  record — of which a durable document is not one (this principle).
 - **enables** — [Recursive Improvement](recursive-improvement.md): the
   single home is the precondition of the spiral, because the spiral's
   unit of action is a bounded asset (with-claude #96's bridge, stated

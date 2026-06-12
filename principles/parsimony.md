@@ -43,12 +43,12 @@ constraint demands it, remove it.
 
 Every abstraction serves a current, concrete use case; when a design
 changes, the old design is replaced — no shims, no adapters, no "support
-both during transition." Documents and comments describe the present
-system; history lives in version control. Tests verify what the system
-does, not what it doesn't do.
+both during transition." A compatibility layer is weight carried for a
+need that no longer exists.
 — *Source: commons ADR-0002 (Everything Earns Its Place), principle-shaped
 and ascended here; its grounding half lives in
-[Grounding](grounding.md).*
+[Grounding](grounding.md), and its present-system/test fragment lives in
+[Positive Form](positive-form.md).*
 
 ### Policy over status tracking *(system design)*
 
@@ -70,6 +70,11 @@ machinery to manage it — the mechanism was never earned.
 - **kin** — [Single Home](single-home.md): a duplicate is a special case
   of an unearned element, but duplication's deeper cost (divergence and
   the dissolved evolution boundary) is Single Home's argument.
+- **kin** — [Positive Form](positive-form.md): a negative encoding or
+  temporal trace is also unearned weight in a document, but the deeper
+  defect — author-relativity, the claim that decays with its author's
+  context — is Positive Form's argument; the present-system
+  documentation discipline lives there.
 
 ## Sources
 

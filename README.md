@@ -16,7 +16,7 @@ distillation. (That rule is itself one of these principles:
 
 ## The structure
 
-- **Universal core** — thirteen principles, one document each, under
+- **Universal core** — fourteen principles, one document each, under
   [`principles/`](principles/). Each document carries the invariant, its
   exposition, recognition and corrective signals, its corollaries and
   projections, and its typed relations to other principles.
@@ -46,7 +46,7 @@ move in order — the corpus obeys its own
 | Movement | Question it answers | Principles |
 |---|---|---|
 | **I — Ground** | What is true, and who owns what? | [Grounding](principles/grounding.md) · [Traceability](principles/traceability.md) · [Sovereignty](principles/sovereignty.md) · [Sequence](principles/sequence.md) |
-| **II — Shape** | Is the answer earned, single, and durable? | [Parsimony](principles/parsimony.md) · [Single Home](principles/single-home.md) · [Evolvability](principles/evolvability.md) |
+| **II — Shape** | Is the answer earned, single, stated as itself, and durable? | [Parsimony](principles/parsimony.md) · [Single Home](principles/single-home.md) · [Positive Form](principles/positive-form.md) · [Evolvability](principles/evolvability.md) |
 | **III — Protect** | Does the system tell the truth and repair itself? | [Honest Signal](principles/honest-signal.md) · [Source Repair](principles/source-repair.md) · [Obligation to Dissent](principles/obligation-to-dissent.md) · [Recursive Improvement](principles/recursive-improvement.md) |
 | **IV — Land** | Can the recipient act, and is completion a fact? | [Transmission](principles/transmission.md) · [Verifiable Completion](principles/verifiable-completion.md) |
 
@@ -71,12 +71,15 @@ survived contact with the larger register, and it carries meaning in its
 order — each movement produces the ground the next requires — where the
 compass arrangement is positional only. It was therefore adopted and
 enriched with what the compass did better: the named-failure diagnostic
-(above) and the explicit center. Thirteen universals is what the actual
+(above) and the explicit center. Fourteen universals is what the actual
 material ascended to — twelve from the four synthesis registers, the
 thirteenth ([Traceability](principles/traceability.md)) when the fifth
 register was classified
-([#2](https://github.com/pentaxis93/principles/issues/2)); no source
-count was ever a target.
+([#2](https://github.com/pentaxis93/principles/issues/2)), the
+fourteenth ([Positive Form](principles/positive-form.md)) when the
+invariant scattered across registers and consumer methodology was
+ascended ([#11](https://github.com/pentaxis93/principles/issues/11));
+no source count was ever a target.
 
 ## The relationship taxonomy
 

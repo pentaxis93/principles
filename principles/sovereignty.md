@@ -46,8 +46,12 @@ is before taking or offering it.
 
 Specify outcomes and constraints, not procedure. Declarative framing is
 the communication discipline that expresses sovereignty: say what should
-be true, not what steps to take.
-— *Source: commons `PRINCIPLES.md` §1.*
+be true, not what steps to take. This is the procedural axis — an
+ownership claim about who holds WHAT and who holds HOW; how the WHAT
+itself is encoded — the negation and history axes — belongs to
+[Positive Form](positive-form.md).
+— *Source: commons `PRINCIPLES.md` §1; the axis boundary is corpus
+synthesis ([#11](https://github.com/pentaxis93/principles/issues/11)).*
 
 ### Specification and implementation are separate scopes *(work design)*
 
