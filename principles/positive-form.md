@@ -3,8 +3,7 @@
 **Movement:** II — Shape · [Index](../README.md)
 
 > **Invariant:** A durable claim states what is — in the positive, in
-> the present. Description is relative to the thing described, never to
-> the path by which its author arrived at it.
+> the present. Description is relative to the thing described alone.
 
 ## The universal
 
