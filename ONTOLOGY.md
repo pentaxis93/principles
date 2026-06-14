@@ -20,10 +20,10 @@ in each document's **Relations** section.
 | **projection** | A universal instantiated in a domain form. | in-document | directional: universal -> domain form | none; intra-document | listed under **Projections**, each projection naming its source register item |
 | **corollary** | A same-level consequence derivable from a universal. | in-document | directional: universal -> consequence | none; intra-document | stated under **Corollaries** as a named same-level consequence |
 | **composition** | Two or more universals acting together as one discipline. | Relations | symmetric among constituents | reciprocal: every constituent carries the edge | `<Name> : <this document's face>`, with the name linked iff a `compositions/` document exists |
-| **dual** | One invariant seen from two aspects. | Relations | symmetric | reciprocal: both endpoints carry it | `dual` - or `dual (tension)` - [Other](...): the one invariant seen as two aspects |
-| **isomorphism** | The same move recurring in different domains. | Relations | symmetric | reciprocal: both endpoints carry it | `isomorphism` - [Other](...): the shared move, named in each domain |
-| **enables** | One principle is the precondition of another's existence or sound operation. | Relations | directional: A enables B | reciprocal: target B carries `enabled-by` back to A | on A: `enables` - [B](...): B's precondition; on B: `enabled-by` - [A](...) |
-| **kin** | Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other. | Relations | symmetric | reciprocal: both endpoints carry it | `kin` - [Other](...): the shared demand or family resemblance |
+| **dual** | One invariant seen from two aspects. | Relations | symmetric | reciprocal: both endpoints carry it | `dual` - or `dual (tension)` - `[Other](...)`: the one invariant seen as two aspects |
+| **isomorphism** | The same move recurring in different domains. | Relations | symmetric | reciprocal: both endpoints carry it | `isomorphism` - `[Other](...)`: the shared move, named in each domain |
+| **enables** | One principle is the precondition of another's existence or sound operation. | Relations | directional: A enables B | reciprocal: target B carries `enabled-by` back to A | on A: `enables` - `[B](...)`: B's precondition; on B: `enabled-by` - `[A](...)` |
+| **kin** | Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other. | Relations | symmetric | reciprocal: both endpoints carry it | `kin` - `[Other](...)`: the shared demand or family resemblance |
 
 Every relation label in use is either declared or folded:
 
@@ -102,6 +102,11 @@ Three previously unnamed compositions are named here:
 - **Safe Delegation**: Sovereignty ∘ Verifiable Completion.
 - **Repair at the Emitter**: Honest Signal ∘ Source Repair.
 - **Act at the Source**: Obligation to Dissent ∘ Source Repair.
+
+**Contract-First** is also introduced here as an edge-form
+composition: Sovereignty ∘ Sequence ∘ Single Home. It does not receive a
+`compositions/` document because its constituent edges carry the complete
+discipline.
 
 Grounding ↔ Sequence resolves to a single consistent `enables` edge:
 Grounding enables Sequence because grounding supplies the input that
