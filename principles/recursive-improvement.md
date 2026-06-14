@@ -57,10 +57,12 @@ both levels.
 - **enabled-by** — [Single Home](single-home.md): the spiral acts on a
   bounded asset; a thing without a single home cannot accumulate
   friction in one place and so cannot evolve as a unit.
-- **fed-by** — [Obligation to Dissent](obligation-to-dissent.md) and
-  [Source Repair](source-repair.md): dissent surfaces the friction,
-  source repair directs it at the producer; the spiral is what they
-  compound into.
+- **enabled-by** — [Obligation to Dissent](obligation-to-dissent.md):
+  surfaced friction supplies the spiral's raw material; swallowed
+  friction starves it.
+- **enabled-by** — [Source Repair](source-repair.md): directed repair at
+  the producer turns object-work into process-work, giving the spiral
+  process material to compound.
 - **composition** —
   [Completed Noticing](../compositions/completed-noticing.md): the
   spiral is the cycle's Repeat move — residue exposed to the next turn.

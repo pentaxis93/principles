@@ -35,7 +35,7 @@ and ascended after the founding synthesis are classified in their own
 | 5. Recursive Improvement | ascended | [Recursive Improvement](principles/recursive-improvement.md) |
 | 6. Transmission | ascended | [Transmission](principles/transmission.md) |
 | 7. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
-| Compass topology (N/E/S/W + center) | ascended | The four-movement topology supersedes the compass arrangement ([README](README.md#the-topology) states why); the compass's named-failure diagnostic and its center claim (the spiral) are retained in the topology section |
+| Compass topology (N/E/S/W + center) | ascended | The four-movement topology supersedes the compass arrangement ([form contract](ONTOLOGY.md#topology) states why); the compass's named-failure diagnostic and its center claim (the spiral) are retained in the topology section |
 
 ## Register 2 — `tesserine/commons/DESIGN-PRINCIPLES.md` (21 design principles)
 
@@ -104,7 +104,7 @@ that *applies* a principle. Consult the Decision's shape, not the label.
 | 11. Transmission | ascended | [Transmission](principles/transmission.md) |
 | 12. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
 | 13. Consult, Don't Reimplement | projection | [Single Home](principles/single-home.md) (corollary *consult, don't model*), carrying its soundness-condition edge to [Verifiable Completion](principles/verifiable-completion.md) |
-| Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([README](README.md#the-topology) states why), extended with the compass's failure diagnostics |
+| Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([form contract](ONTOLOGY.md#topology) states why), extended with the compass's failure diagnostics |
 | Feedback-loop footer (`asset:principles` route) | ascended | Relocated: future corpus friction is filed against this repository ([README](README.md#evolving-this-corpus)) |
 
 ## Register 5 — `tesserine/groundwork` `skills/reckon/SKILL.md` §Navigational Principles (5 principles + preamble)
@@ -148,5 +148,5 @@ left as later enrichment, per #110's direction:
 
 | Item | Resolution |
 |---|---|
-| [with-claude#91](https://github.com/pentaxis93/with-claude/issues/91) — principle interrelationships want a curated, evolving structure | The corpus's typed relationship taxonomy ([README](README.md#the-relationship-taxonomy)) and per-principle **Relations** sections are that structure: present-tense, curated, not ADR-shaped |
+| [with-claude#91](https://github.com/pentaxis93/with-claude/issues/91) — principle interrelationships want a curated, evolving structure | The corpus's typed relationship taxonomy ([form contract](ONTOLOGY.md#relationship-taxonomy)) and per-principle **Relations** sections are that structure: present-tense, curated, not ADR-shaped |
 | [with-claude#96](https://github.com/pentaxis93/with-claude/issues/96) — single home as the evolvability boundary | Its open question ("new principle or enrichment edge?") resolves as: the evolvability-boundary argument is the second rationale of the ascended universal [Single Home](principles/single-home.md), and its bridge to the spiral is the **enables** edge to [Recursive Improvement](principles/recursive-improvement.md) |

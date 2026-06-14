@@ -59,9 +59,9 @@ machinery to manage it — the mechanism was never earned.
 
 ## Relations
 
-- **composition** — [Grounding](grounding.md) ∘ Parsimony yields
-  *everything earns its place*: grounding prevents unearned elements from
-  entering; parsimony removes them when they lose their justification.
+- **composition** — Everything Earns Its Place : [Grounding](grounding.md)
+  prevents unearned elements from entering; parsimony removes them when
+  they lose their justification.
 - **dual (tension)** — [Evolvability](evolvability.md): parsimony forbids
   gold-plating for imagined futures; evolvability forbids under-building
   what is genuinely needed. The pair bounds the same axis from opposite

@@ -104,18 +104,26 @@ itself exists under). DRY is this projection at the scale of code.*
 
 ## Relations
 
-- **composition** — [Positive Form](positive-form.md) ∘ Single Home
-  yields *history lives in version control*: a durable claim is
-  present-only (Positive Form), and history has exactly one home — the
-  record — of which a durable document is not one (this principle).
+- **composition** — History Lives in Version Control : a durable claim
+  is present-only ([Positive Form](positive-form.md)), and history has
+  exactly one home — the record — of which a durable document is not one
+  (Single Home).
 - **enables** — [Recursive Improvement](recursive-improvement.md): the
   single home is the precondition of the spiral, because the spiral's
   unit of action is a bounded asset (with-claude #96's bridge, stated
   natively here).
+- **enables** — [Verifiable Completion](verifiable-completion.md):
+  consulting the governing authority is the soundness condition for a
+  gate; a gate that models its authority instead of consulting it can
+  pass what the authority rejects.
 - **isomorphism** — the consult-don't-model corollary and
   [Grounding](grounding.md)'s *read the manual* projection are the same
   move in two domains: enforcement consults its authority; cognition
   consults its substrate.
+- **composition** — Contract-First : build-on-contracts face of
+  [Sovereignty](sovereignty.md) ∘ [Sequence](sequence.md) ∘
+  [Single Home](single-home.md); the contract is the one authoritative
+  surface every layer consults or derives from.
 - **kin** — [Parsimony](parsimony.md): a duplicate is also an unearned
   element, but the dissolved evolution boundary is the deeper cost.
 

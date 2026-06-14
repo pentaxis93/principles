@@ -110,11 +110,10 @@ verifies nothing, because the absence of the old claim is not a claim.
   itself is encoded — live here. Both disciplines yield declarative
   sentences; the discriminator is whether the defect crossed an
   ownership boundary or fossilized the author's journey.
-- **composition** — Positive Form ∘
-  [Single Home](single-home.md) yields *history lives in version
-  control*: a durable claim is present-only (this principle), and
-  history has exactly one home — the record — of which a durable
-  document is not one (Single Home).
+- **composition** — History Lives in Version Control : a durable claim
+  is present-only (Positive Form), and history has exactly one home —
+  the record — of which a durable document is not one
+  ([Single Home](single-home.md)).
 
 ## Sources
 

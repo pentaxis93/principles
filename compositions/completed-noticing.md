@@ -62,7 +62,8 @@ Each missing move corrupts the cycle in a named way:
 
 ## Relations
 
-- **composed-of** — [Grounding](../principles/grounding.md) ·
+- **composition** — Completed Noticing : constituent set —
+  [Grounding](../principles/grounding.md) ·
   [Verifiable Completion](../principles/verifiable-completion.md) ·
   [Obligation to Dissent](../principles/obligation-to-dissent.md) ·
   [Transmission](../principles/transmission.md) ·
@@ -70,7 +71,7 @@ Each missing move corrupts the cycle in a named way:
   [Sequence](../principles/sequence.md). Each constituent carries the
   reciprocal **composition** edge.
 - **kin** — the corpus topology's center (*the center is the spiral*,
-  [README](../README.md)): the four movements traversed as one turn of
+  [form contract](../ONTOLOGY.md#topology)): the four movements traversed as one turn of
   this cycle. Whether the center is eventually stated as this
   composition is left to the corpus's own spiral.
 

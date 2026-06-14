@@ -55,8 +55,11 @@ silently. When in doubt, fix.
 
 ## Relations
 
-- **composition** — with [Source Repair](source-repair.md): dissent is
-  the obligation to act; source repair is where the action lands.
+- **composition** — Act at the Source :
+  [Obligation to Dissent](obligation-to-dissent.md) ∘
+  [Source Repair](source-repair.md); dissent supplies the obligation to
+  act on a seen defect; source repair supplies the locus where the
+  action lands.
 - **enables** — [Recursive Improvement](recursive-improvement.md):
   surfaced friction is the spiral's raw material; swallowed friction
   starves it.

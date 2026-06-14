@@ -64,13 +64,15 @@ on the gap now).*
 
 ## Relations
 
-- **composition** — Source Repair ∘
-  [Obligation to Dissent](obligation-to-dissent.md): dissent supplies
-  the obligation to act on a seen defect; source repair supplies the
-  locus where the action lands.
-- **composition** — with [Honest Signal](honest-signal.md): the false
-  signal is fixed at the artifact that emits it, not annotated where it
-  is noticed.
+- **composition** — Act at the Source :
+  [Obligation to Dissent](obligation-to-dissent.md) ∘
+  [Source Repair](source-repair.md); dissent supplies the obligation to
+  act on a seen defect; source repair supplies the locus where the
+  action lands.
+- **composition** — Repair at the Emitter :
+  [Honest Signal](honest-signal.md) ∘ [Source Repair](source-repair.md);
+  the false signal is repaired at the artifact that emits it, not
+  annotated where it is noticed.
 - **enables** — [Recursive Improvement](recursive-improvement.md):
   repairing the producer rather than the product is the move that turns
   object-work into process-work.

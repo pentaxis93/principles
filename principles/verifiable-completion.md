@@ -50,11 +50,10 @@ paid once; the cost of acting on stale assumptions is paid every call.
 
 ## Relations
 
-- **soundness condition** — [Single Home](single-home.md)'s
-  *consult, don't model* corollary: a gate that models its authority
-  instead of consulting it can pass what the authority rejects —
-  enforcement theater. A gate verifies only if it consults what
-  governs.
+- **enabled-by** — [Single Home](single-home.md)'s *consult, don't
+  model* corollary: consulting the governing authority is the soundness
+  condition for a gate; a gate that models its authority instead of
+  consulting it can pass what the authority rejects.
 - **kin** — [Honest Signal](honest-signal.md): surfaces must not lie;
   claims must not outrun evidence. Same demand, two sites.
 - **kin** — [Traceability](traceability.md): evidence decides the claim;
@@ -62,6 +61,9 @@ paid once; the cost of acting on stale assumptions is paid every call.
   audited, at two sites — completion claims and reasoning.
 - **enabled-by** — [Sequence](sequence.md): verification-before-claim is
   sequence applied to the final boundary of a unit of work.
+- **composition** — Safe Delegation : [Sovereignty](sovereignty.md) ∘
+  [Verifiable Completion](verifiable-completion.md); the owner of WHAT
+  verifies outcomes instead of supervising steps.
 - **composition** —
   [Completed Noticing](../compositions/completed-noticing.md): *verify
   before act* is half of the cycle's Verify move; the evidence-first
