@@ -108,6 +108,12 @@ itself exists under). DRY is this projection at the scale of code.*
   yields *history lives in version control*: a durable claim is
   present-only (Positive Form), and history has exactly one home — the
   record — of which a durable document is not one (this principle).
+- **composition** — *Contract-First* = [Sovereignty](sovereignty.md) ∘
+  [Sequence](sequence.md) ∘ Single Home: an explicit contract at a layer
+  boundary, defined before the layers and homed once, so each layer is
+  built and verified against it. Single Home is its *build-on-contracts*
+  face — the contract is the one authoritative surface every layer
+  consults or derives from, never re-models.
 - **enables** — [Recursive Improvement](recursive-improvement.md): the
   single home is the precondition of the spiral, because the spiral's
   unit of action is a bounded asset (with-claude #96's bridge, stated

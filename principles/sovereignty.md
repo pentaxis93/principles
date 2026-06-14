@@ -91,6 +91,12 @@ it.*
 - **composition** — Sovereignty ∘ [Verifiable
   Completion](verifiable-completion.md) is what makes delegation safe:
   the owner of WHAT verifies outcomes instead of supervising steps.
+- **composition** — *Contract-First* = Sovereignty ∘
+  [Sequence](sequence.md) ∘ [Single Home](single-home.md): an explicit
+  contract at a layer boundary, defined before the layers and homed
+  once, so each layer is built and verified against it. Sovereignty is
+  its *ownership* face — the boundary divides what the contract
+  guarantees from how each side satisfies it.
 
 ## Sources
 

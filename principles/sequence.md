@@ -59,6 +59,13 @@ named stage ordering).*
   [Completed Noticing](../compositions/completed-noticing.md): the
   cycle's ordering — each move produces the ground the next requires —
   is owned by Sequence.
+- **composition** — *Contract-First* = [Sovereignty](sovereignty.md) ∘
+  Sequence ∘ [Single Home](single-home.md): an explicit contract at a
+  layer boundary, defined before the layers and homed once, so each
+  layer is built and verified against it. Sequence is its
+  *contract-first* face — the contract is the prior stage whose output
+  each layer requires as input; *behavior before implementation*
+  generalized to any boundary.
 
 ## Sources
 
