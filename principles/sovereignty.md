@@ -88,9 +88,16 @@ it.*
 - **enables** — [Transmission](transmission.md): a clean WHAT lets the
   recipient own their HOW; a blurred one forces them to reconstruct the
   maker's intent.
-- **composition** — Sovereignty ∘ [Verifiable
-  Completion](verifiable-completion.md) is what makes delegation safe:
-  the owner of WHAT verifies outcomes instead of supervising steps.
+- **composition** — Safe Delegation : [Sovereignty](sovereignty.md) ∘
+  [Verifiable Completion](verifiable-completion.md); the owner of WHAT
+  verifies outcomes instead of supervising steps.
+- **composition** — Contract-First : ownership face of
+  [Sovereignty](sovereignty.md) ∘ [Sequence](sequence.md) ∘
+  [Single Home](single-home.md); the contract defines the boundary
+  between what each side guarantees and how each side satisfies it.
+- **kin** — [Positive Form](positive-form.md): declarative framing is
+  the procedural axis — who holds WHAT and who holds HOW. Positive Form
+  owns how the durable WHAT itself is encoded.
 
 ## Sources
 

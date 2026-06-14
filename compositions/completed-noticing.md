@@ -62,7 +62,8 @@ Each missing move corrupts the cycle in a named way:
 
 ## Relations
 
-- **composed-of** — [Grounding](../principles/grounding.md) ·
+- **composition** — Completed Noticing : constituent set —
+  [Grounding](../principles/grounding.md) ·
   [Verifiable Completion](../principles/verifiable-completion.md) ·
   [Obligation to Dissent](../principles/obligation-to-dissent.md) ·
   [Transmission](../principles/transmission.md) ·
