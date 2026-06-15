@@ -92,6 +92,9 @@ concrete release surface.*
   [Honest Signal](honest-signal.md) ∘ [Source Repair](source-repair.md);
   the false signal is repaired at the artifact that emits it, not
   annotated where it is noticed.
+- **kin** — [Contract-First](../compositions/contract-first.md): the
+  contract is a surface that tells the truth about the seam, and a
+  declaration that diverges from what each side does is a lying surface.
 
 ## Sources
 

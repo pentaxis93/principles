@@ -79,6 +79,9 @@ machinery to manage it — the mechanism was never earned.
   defect — author-relativity, the claim that decays with its author's
   context — is Positive Form's argument; the present-system
   documentation discipline lives there.
+- **kin** — [Contract-First](../compositions/contract-first.md): the
+  contract declares only the WHAT that must cross the boundary, carrying
+  nothing the seam does not demand.
 
 ## Sources
 

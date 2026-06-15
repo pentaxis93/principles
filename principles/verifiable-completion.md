@@ -70,6 +70,9 @@ paid once; the cost of acting on stale assumptions is paid every call.
 - **composition** — Safe Delegation : [Sovereignty](sovereignty.md) ∘
   [Verifiable Completion](verifiable-completion.md); the owner of WHAT
   verifies outcomes instead of supervising steps.
+- **composition** — [Contract-First](../compositions/contract-first.md):
+  each side is verified against the declaration as evidence, not against
+  its own report, so the contract is the gate.
 - **composition** —
   [Completed Noticing](../compositions/completed-noticing.md): *verify
   before act* is half of the cycle's Verify move; the evidence-first

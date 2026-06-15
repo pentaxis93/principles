@@ -104,10 +104,12 @@ Three previously unnamed compositions are named here:
 - **Repair at the Emitter**: Honest Signal ∘ Source Repair.
 - **Act at the Source**: Obligation to Dissent ∘ Source Repair.
 
-**Contract-First** is also introduced here as an edge-form
-composition: Sovereignty ∘ Sequence ∘ Single Home. It does not receive a
-`compositions/` document because its constituent edges carry the complete
-discipline.
+**Contract-First** — Sovereignty ∘ Single Home ∘ Verifiable Completion ∘
+Sequence — receives a [`compositions/` document](compositions/contract-first.md).
+It meets the bar above for a document of its own: it carries
+composition-level content no constituent edge holds — the contract as the
+unit of agentic composition, and the force-and-time to energy-state
+isomorphism that makes that composition tractable.
 
 Grounding ↔ Sequence resolves to a single consistent `enables` edge:
 Grounding enables Sequence because grounding supplies the input that
@@ -170,3 +172,10 @@ This topology adopts the four-movement form from the source material
 because it carries meaning in its order. It retains what the compass
 topology carried better: the named-failure diagnostic and the explicit
 center.
+
+The named compositions are read against the movements that supply their
+constituents rather than placed inside them. Among them,
+[Contract-First](compositions/contract-first.md) is foundational: it
+composes universals from across the movements into the seam discipline the
+agentic-work layer is built on, so it is read early — as the discipline the
+later work assumes.

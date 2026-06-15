@@ -44,7 +44,11 @@ specification is the failure mode at that boundary.
 
 A failing specification of the desired behavior precedes the code that
 satisfies it. Code written first has no ground to be verified against;
-the test written after passes immediately and proves nothing.
+the test written after passes immediately and proves nothing. This is
+the behavioral form of
+[Contract-First](../compositions/contract-first.md): the declared
+behavior is the contract the code is built to satisfy and verified
+against.
 — *Source: commons `PRINCIPLES.md` §2 (BDD-before-implementation as the
 named stage ordering).*
 
@@ -56,10 +60,10 @@ named stage ordering).*
 - **enabled-by** — [Grounding](grounding.md): grounding supplies the
   input sequence requires at the design boundary; inherited framing is
   the failure mode there.
-- **composition** — Contract-First : contract-first face of
-  [Sovereignty](sovereignty.md) ∘ [Sequence](sequence.md) ∘
-  [Single Home](single-home.md); the contract is the prior stage whose
-  output each layer requires.
+- **composition** — [Contract-First](../compositions/contract-first.md):
+  the contract is the prior stage whose output each side requires, and
+  its behavioral form is BDD — behavior declared before the code is built
+  to it.
 - **composition** —
   [Completed Noticing](../compositions/completed-noticing.md): the
   cycle's ordering — each move produces the ground the next requires —

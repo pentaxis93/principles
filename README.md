@@ -17,8 +17,9 @@ distillation. (That rule is itself one of these principles:
 
 The corpus contains principle documents under [`principles/`](principles/),
 named composition documents under [`compositions/`](compositions/) —
-[Completed Noticing](compositions/completed-noticing.md) and
-[Dosed Compliance](compositions/dosed-compliance.md) — and the source
+[Completed Noticing](compositions/completed-noticing.md),
+[Dosed Compliance](compositions/dosed-compliance.md), and
+[Contract-First](compositions/contract-first.md) — and the source
 coverage map in [SOURCES.md](SOURCES.md). Its machine-checkable
 structural spine lives in [ontology.yaml](ontology.yaml); the reader-facing
 form contract is rendered in [ONTOLOGY.md](ONTOLOGY.md).
