@@ -100,10 +100,10 @@ consumer's experience, the consumer's experience wins.
   Grounding establishes what is true at the start of reasoning;
   Traceability keeps every subsequent inference anchored to it. Two
   faces of one act.
-- **composition** — [Parsimony](parsimony.md) ∘ Grounding yields
-  *everything earns its place*: grounding prevents unearned elements from
-  entering; parsimony removes them when they lose their justification
-  (commons ADR-0002 states this composition explicitly).
+- **composition** — Everything Earns Its Place : grounding prevents
+  unearned elements from entering; [Parsimony](parsimony.md) removes
+  them when they lose their justification (commons ADR-0002 states this
+  composition explicitly).
 - **composition** —
   [Completed Noticing](../compositions/completed-noticing.md): grounding
   is the cycle's Attend move, and its diagnostic face is half of Verify.
@@ -111,8 +111,15 @@ consumer's experience, the consumer's experience wins.
   [Dosed Compliance](../compositions/dosed-compliance.md): grounding
   supplies the goal-not-gate move — the gate is an instrument, the need
   is that the property holds.
-- **enables** — [Sequence](sequence.md) places grounding before design
-  because inherited framing is the failure mode at that boundary.
+- **enables** — [Sequence](sequence.md): grounding supplies the input
+  sequence requires at the design boundary; inherited framing is the
+  failure mode there.
+- **isomorphism** — [Single Home](single-home.md)'s *consult, don't
+  model* corollary and Grounding's *read the manual* projection are the
+  same move in two domains: enforcement consults its authority;
+  cognition consults its substrate.
+- **kin** — [Transmission](transmission.md): grounding names whose
+  reality decides; transmission makes the artifact land in that reality.
 
 ## Sources
 

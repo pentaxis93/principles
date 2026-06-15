@@ -53,8 +53,13 @@ named stage ordering).*
 - **enables** — [Verifiable Completion](verifiable-completion.md):
   verification-before-claim is sequence applied to the final boundary of
   a unit of work.
-- **composition** — Sequence ∘ [Grounding](grounding.md): grounding is
-  the first stage because every later stage consumes its output.
+- **enabled-by** — [Grounding](grounding.md): grounding supplies the
+  input sequence requires at the design boundary; inherited framing is
+  the failure mode there.
+- **composition** — Contract-First : contract-first face of
+  [Sovereignty](sovereignty.md) ∘ [Sequence](sequence.md) ∘
+  [Single Home](single-home.md); the contract is the prior stage whose
+  output each layer requires.
 - **composition** —
   [Completed Noticing](../compositions/completed-noticing.md): the
   cycle's ordering — each move produces the ground the next requires —

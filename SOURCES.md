@@ -20,6 +20,10 @@ The reverse traversal lives in the principle documents themselves: each
 universal's **Sources** section links back to every register item that
 shaped it.
 
+Invariants that recurred across the registers and consumer methodology
+and ascended after the founding synthesis are classified in their own
+**post-synthesis ascent** sections below, with the same vocabulary.
+
 ## Register 1 — `tesserine/commons/PRINCIPLES.md` (7 principles + topology)
 
 | Item | Classification | Destination |
@@ -31,7 +35,7 @@ shaped it.
 | 5. Recursive Improvement | ascended | [Recursive Improvement](principles/recursive-improvement.md) |
 | 6. Transmission | ascended | [Transmission](principles/transmission.md) |
 | 7. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
-| Compass topology (N/E/S/W + center) | ascended | The four-movement topology supersedes the compass arrangement ([README](README.md#the-topology) states why); the compass's named-failure diagnostic and its center claim (the spiral) are retained in the topology section |
+| Compass topology (N/E/S/W + center) | ascended | The four-movement topology supersedes the compass arrangement ([form contract](ONTOLOGY.md#topology) states why); the compass's named-failure diagnostic and its center claim (the spiral) are retained in the topology section |
 
 ## Register 2 — `tesserine/commons/DESIGN-PRINCIPLES.md` (21 design principles)
 
@@ -68,7 +72,7 @@ that *applies* a principle. Consult the Decision's shape, not the label.
 | Item | Classification | Destination / reason |
 |---|---|---|
 | ADR-0001 Sovereignty | ascended | [Sovereignty](principles/sovereignty.md) — its Decision states a durable truth ("every interface has a clean ownership boundary"), not a choice among alternatives |
-| ADR-0002 Everything Earns Its Place | ascended | Split as the ADR itself directs ("two disciplines combine here"): entry discipline to [Grounding](principles/grounding.md), removal discipline to [Parsimony](principles/parsimony.md) |
+| ADR-0002 Everything Earns Its Place | ascended | Split as the ADR itself directs ("two disciplines combine here"): entry discipline to [Grounding](principles/grounding.md), removal discipline to [Parsimony](principles/parsimony.md); its present-system/test fragment to [Positive Form](principles/positive-form.md) ([#11](https://github.com/pentaxis93/principles/issues/11)) |
 | ADR-0003 Unconditional Responsibility | ascended | [Obligation to Dissent](principles/obligation-to-dissent.md) (projection *unconditional responsibility*) |
 | ADR-0004 Compound Improvement | ascended | [Recursive Improvement](principles/recursive-improvement.md) |
 | ADR-0005 System Conventions for Cross-Component Artifacts | retained | Genuine decision: commons as spec authority, canonical pair form, versioning and vendoring mechanics. Instantiates [Single Home](principles/single-home.md) and [Sovereignty](principles/sovereignty.md) |
@@ -100,7 +104,7 @@ that *applies* a principle. Consult the Decision's shape, not the label.
 | 11. Transmission | ascended | [Transmission](principles/transmission.md) |
 | 12. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
 | 13. Consult, Don't Reimplement | projection | [Single Home](principles/single-home.md) (corollary *consult, don't model*), carrying its soundness-condition edge to [Verifiable Completion](principles/verifiable-completion.md) |
-| Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([README](README.md#the-topology) states why), extended with the compass's failure diagnostics |
+| Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([form contract](ONTOLOGY.md#topology) states why), extended with the compass's failure diagnostics |
 | Feedback-loop footer (`asset:principles` route) | ascended | Relocated: future corpus friction is filed against this repository ([README](README.md#evolving-this-corpus)) |
 
 ## Register 5 — `tesserine/groundwork` `skills/reckon/SKILL.md` §Navigational Principles (5 principles + preamble)
@@ -123,6 +127,20 @@ gated on this classification landing.
 | 4. Traceability | ascended | [Traceability](principles/traceability.md) — **new universal** (Movement I, dual with [Grounding](principles/grounding.md)). Not attachable as a corollary because not derivable: reckon's *grounded-then-analogical* corruption mode documents reasoning that satisfied Grounding fully and still failed ("correct position, analogical momentum"), and no existing universal's recognition catches mid-chain drift |
 | 5. Independence | ascended | [Grounding](principles/grounding.md) — the invariant generalized laterally: an adjacent problem's solution is evidence about another need's attempt, not a template for this one; re-derivation is the validation test |
 
+## Post-synthesis ascent — Positive Form ([#11](https://github.com/pentaxis93/principles/issues/11))
+
+One invariant recurred as fragments across the registers and the
+consumer methodology documents; it ascended as the fourteenth universal,
+[Positive Form](principles/positive-form.md). The items that carried it:
+
+| Item | Classification | Destination / reason |
+|---|---|---|
+| commons ADR-0002, present-system/test fragment ("documents and comments describe the present system; tests verify what the system does") | ascended | [Positive Form](principles/positive-form.md) — moved home from [Parsimony](principles/parsimony.md)'s "No speculative abstraction" projection, where it first landed; lives there now as the *present-system documentation* projection |
+| with-claude [`_shared/methodology/document-register.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/methodology/document-register.md), the restate-forwards move | projection | [Positive Form](principles/positive-form.md) (projection *restate forwards*); the methodology document comes to reference the universal (follow-on filed in with-claude) |
+| issue-craft (with-claude [`_shared/methodology/issue-craft.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/methodology/issue-craft.md) / groundwork skill), *negative-criteria* and *governance-narrative* corruption modes | projection | [Positive Form](principles/positive-form.md) (projection *positive acceptance criteria*); the methodology documents come to reference the universal (follow-on filed in the consumer repositories) |
+| with-claude [#103](https://github.com/pentaxis93/with-claude/issues/103) / [#104](https://github.com/pentaxis93/with-claude/issues/104), the negative-exception-framing audit | ascended | [Positive Form](principles/positive-form.md) — the audits' invariant (carve-outs stated as exceptions restate as positive firing conditions) is absorbed into the universal's boundary clause |
+| babbie-ops [#54](https://github.com/pentaxis93/babbie-ops/issues/54), the contract test positively asserting the corrected boundary | projection | [Positive Form](principles/positive-form.md) (projection *assert the corrected boundary*) |
+
 ## Inbound change-vectors resolved natively
 
 Two open with-claude reckons were resolved by this synthesis rather than
@@ -130,5 +148,5 @@ left as later enrichment, per #110's direction:
 
 | Item | Resolution |
 |---|---|
-| [with-claude#91](https://github.com/pentaxis93/with-claude/issues/91) — principle interrelationships want a curated, evolving structure | The corpus's typed relationship taxonomy ([README](README.md#the-relationship-taxonomy)) and per-principle **Relations** sections are that structure: present-tense, curated, not ADR-shaped |
+| [with-claude#91](https://github.com/pentaxis93/with-claude/issues/91) — principle interrelationships want a curated, evolving structure | The corpus's typed relationship taxonomy ([form contract](ONTOLOGY.md#relationship-taxonomy)) and per-principle **Relations** sections are that structure: present-tense, curated, not ADR-shaped |
 | [with-claude#96](https://github.com/pentaxis93/with-claude/issues/96) — single home as the evolvability boundary | Its open question ("new principle or enrichment edge?") resolves as: the evolvability-boundary argument is the second rationale of the ascended universal [Single Home](principles/single-home.md), and its bridge to the spiral is the **enables** edge to [Recursive Improvement](principles/recursive-improvement.md) |
