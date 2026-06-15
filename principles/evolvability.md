@@ -35,8 +35,12 @@ Or pressure is building to declare something mature so it can stop
 changing.
 
 **Corrective:** Ask what is most likely to change, and build the seam
-there. Price choices in the future's terms: choose the option that stays
-honest as scale grows, unless a verified present constraint forbids it.
+there. Price choices in the future's terms — the debt a shortcut sends
+forward is part of its real cost, weighed at today's decision — and
+dose the response: take the easy and elegant gains in durability
+freely; reach for the extreme or costly ones only with a compelling
+reason. What may never win is the corner-cut that erodes as the system
+grows.
 
 ## Corollaries
 
@@ -54,11 +58,18 @@ work."*
 
 When the scale ahead will exceed what can be pictured, a convention
 policed by hand is a debt instrument: it stays cheap only while the
-surface stays small. Choose the form that remains correct when the
-system multiplies, and make wrong assumptions fail at the surface that
-creates them so scale cannot hide them.
+surface stays small. The goal at that scale is durable compliance, not
+maximal enforcement — structural enforcement is one lever toward it,
+dosed as [Dosed Compliance](../compositions/dosed-compliance.md)
+prescribes, up to the worthwhile frontier: the rung where the next
+increment of enforcement costs more than it returns. What the debt
+forbids is under-building below that frontier — leaving hand-policed
+what visibly erodes as the surface multiplies. And make wrong
+assumptions fail at the surface that creates them, so scale cannot
+hide them.
 — *Source: with-claude `_shared/principles.md` §10 (Scale-Honest
-Design).*
+Design); reframed from the maximum gate to the dosed frontier per
+[#7](https://github.com/pentaxis93/principles/issues/7).*
 
 ## Projections
 
@@ -97,6 +108,13 @@ ascended here.*
   loop that improves an asset through the friction of use; Evolvability
   is the design-time structure that lets the loop run without fighting
   the asset.
+- **composition** —
+  [Dosed Compliance](../compositions/dosed-compliance.md): evolvability
+  supplies the floor — the dose rises to the worthwhile frontier
+  because under-built conventions erode at scale and the debt flows
+  forward. The *scale honesty* corollary was the corpus's first
+  instance of the maximized-gate shape; it now states the dosed
+  frontier.
 - **dual (tension)** — [Parsimony](parsimony.md): parsimony forbids
   speculative weight; evolvability forbids forward debt. Together they
   define "enough": every real constraint met, including the constraint

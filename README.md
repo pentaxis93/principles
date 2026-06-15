@@ -16,11 +16,12 @@ distillation. (That rule is itself one of these principles:
 ## The corpus
 
 The corpus contains principle documents under [`principles/`](principles/),
-named composition documents under [`compositions/`](compositions/), and
-the source coverage map in [SOURCES.md](SOURCES.md). Its authoritative
-form contract is [ONTOLOGY.md](ONTOLOGY.md): document schema,
-relationship taxonomy, composition rules, SOURCES schema, and topology
-live there.
+named composition documents under [`compositions/`](compositions/) —
+[Completed Noticing](compositions/completed-noticing.md) and
+[Dosed Compliance](compositions/dosed-compliance.md) — and the source
+coverage map in [SOURCES.md](SOURCES.md). Its authoritative form
+contract is [ONTOLOGY.md](ONTOLOGY.md): document schema, relationship
+taxonomy, composition rules, SOURCES schema, and topology live there.
 
 ## The topology
 

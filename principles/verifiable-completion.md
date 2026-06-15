@@ -61,6 +61,12 @@ paid once; the cost of acting on stale assumptions is paid every call.
   audited, at two sites — completion claims and reasoning.
 - **enabled-by** — [Sequence](sequence.md): verification-before-claim is
   sequence applied to the final boundary of a unit of work.
+- **kin (boundary)** —
+  [Dosed Compliance](../compositions/dosed-compliance.md): the dose
+  decides whether a gate is built; this principle governs what any
+  completion claim must do regardless. The evidence demand takes no
+  dosed qualifier — evidence is constitutive of the claim, not a lever
+  toward a property.
 - **composition** — Safe Delegation : [Sovereignty](sovereignty.md) ∘
   [Verifiable Completion](verifiable-completion.md); the owner of WHAT
   verifies outcomes instead of supervising steps.
