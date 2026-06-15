@@ -109,9 +109,8 @@ constant; the read comes from the substrate, not from the score. This is
 the *resist proxies* discipline turned on attention itself — the score is
 a proxy for the need, and the moment it captures the play, the need it
 stood for is lost.
-— *Source: E.J. Gold, "there are two ways to play a game — you can play to
-win, or you can play to learn; you cannot do both at the same time," the
-sister-practice transmission. Consumer instance: `pentaxis93/with-claude`
+— *Inspired by E.J. Gold's game-as-practice teaching, distilled here as
+the win-or-learn stance. Consumer instance: `pentaxis93/with-claude`
 [`_shared/workflows/agent-governance.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/workflows/agent-governance.md)'s
 regeneration-count vow, "play the same at level twenty as at level one" —
 the count is the win-surface, held out of the diagnosis.*
@@ -150,4 +149,4 @@ the count is the win-surface, held out of the diagnosis.*
 - `tesserine/commons` [ADR-0002](https://github.com/tesserine/commons/blob/main/adr/0002-everything-earns-its-place.md), [ADR-0007](https://github.com/tesserine/commons/blob/main/adr/0007-day-one-stance.md)
 - `pentaxis93/with-claude` [`_shared/principles.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/principles.md) §1 (Grounding), §2 (Read The Manual)
 - `tesserine/groundwork` [`skills/reckon/SKILL.md`](https://github.com/tesserine/groundwork/blob/main/skills/reckon/SKILL.md) §Navigational Principles 5 (Independence — ascended into the universal's lateral form) and 2 (Elegance, derivation clause — attached as the *form follows the problem* projection)
-- E.J. Gold, the win-or-learn game-stance transmission (post-synthesis, [#5](https://github.com/pentaxis93/principles/issues/5)) — attached as the *play to learn, not to win* projection; consumer instance is `pentaxis93/with-claude` [`_shared/workflows/agent-governance.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/workflows/agent-governance.md)'s regeneration-count vow
+- Inspired by E.J. Gold's game-as-practice teaching (post-synthesis, [#5](https://github.com/pentaxis93/principles/issues/5)) — distilled as the *play to learn, not to win* projection; consumer instance is `pentaxis93/with-claude` [`_shared/workflows/agent-governance.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/workflows/agent-governance.md)'s regeneration-count vow

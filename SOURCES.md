@@ -143,14 +143,15 @@ consumer methodology documents; it ascended as the fourteenth universal,
 
 ## Post-synthesis ascent — Play to Learn ([#5](https://github.com/pentaxis93/principles/issues/5))
 
-The E.J. Gold game-stance transmission was surfaced as a candidate
+A game stance inspired by E.J. Gold's game-as-practice teaching was
+surfaced as a candidate
 principle and was already load-bearing in consumer methodology
 (with-claude `agent-governance.md`'s regeneration-count vow) but had no
 corpus home. The reckon's disposition is recorded here.
 
 | Item | Classification | Destination / reason |
 |---|---|---|
-| E.J. Gold, win-or-learn game stance ("two ways to play a game: to win, or to learn — never both at once") | projection | [Grounding](principles/grounding.md) (projection *play to learn, not to win*). **Not a universal.** The bare mutual-exclusivity claim is a fork with no chosen tine — it states a tension without binding a stance, so it carries no normative content for an agent; and as a hard law ("never both") it is a vivid heuristic, not a domain-neutral invariant (deliberate practice blends the two). The agent-relevant content is the *bias toward the learn-frame where the work needs a grounded diagnosis*: the outcome-metric is a proxy and is not an input to the play. That bias is [Grounding](principles/grounding.md)'s *resist proxies* family applied to attentional stance, so it attaches as a projection rather than ascending. Consumer instance: with-claude `agent-governance.md`'s regeneration-count vow (the count is the win-surface). A second consumer is queued — with-claude [#100](https://github.com/pentaxis93/with-claude/issues/100), a gamified compliance lever, which is the win-frame turned into a design tool and carries this projection's caution |
+| Win-or-learn game stance, distilled from E.J. Gold's game-as-practice teaching (to win, or to learn — not both at once) | projection | [Grounding](principles/grounding.md) (projection *play to learn, not to win*). **Not a universal.** The bare mutual-exclusivity claim is a fork with no chosen tine — it states a tension without binding a stance, so it carries no normative content for an agent; and as a hard law ("never both") it is a vivid heuristic, not a domain-neutral invariant (deliberate practice blends the two). The agent-relevant content is the *bias toward the learn-frame where the work needs a grounded diagnosis*: the outcome-metric is a proxy and is not an input to the play. That bias is [Grounding](principles/grounding.md)'s *resist proxies* family applied to attentional stance, so it attaches as a projection rather than ascending. Consumer instance: with-claude `agent-governance.md`'s regeneration-count vow (the count is the win-surface). A second consumer is queued — with-claude [#100](https://github.com/pentaxis93/with-claude/issues/100), a gamified compliance lever, which is the win-frame turned into a design tool and carries this projection's caution |
 
 ## Inbound change-vectors resolved natively
 
