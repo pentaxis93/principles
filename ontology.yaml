@@ -158,6 +158,10 @@ nodes:
     title: Dosed Compliance
     kind: composition
     path: compositions/dosed-compliance.md
+  - id: contract-first
+    title: Contract-First
+    kind: composition
+    path: compositions/contract-first.md
 
 topology:
   center:
@@ -358,11 +362,8 @@ relations:
   - source: sequence
     type: composition
     label: composition
-    name: Contract-First
     targets:
-      - sovereignty
-      - sequence
-      - single-home
+      - contract-first
   - source: sequence
     type: composition
     label: composition
@@ -392,11 +393,8 @@ relations:
   - source: single-home
     type: composition
     label: composition
-    name: Contract-First
     targets:
-      - sovereignty
-      - sequence
-      - single-home
+      - contract-first
   - source: single-home
     type: kin
     label: kin
@@ -436,11 +434,8 @@ relations:
   - source: sovereignty
     type: composition
     label: composition
-    name: Contract-First
     targets:
-      - sovereignty
-      - sequence
-      - single-home
+      - contract-first
   - source: sovereignty
     type: kin
     label: kin
@@ -538,3 +533,46 @@ relations:
     annotation: boundary
     targets:
       - verifiable-completion
+  - source: verifiable-completion
+    type: composition
+    label: composition
+    targets:
+      - contract-first
+  - source: contract-first
+    type: composition
+    label: composed-of
+    targets:
+      - sovereignty
+      - single-home
+      - verifiable-completion
+      - sequence
+  - source: contract-first
+    type: kin
+    label: kin
+    targets:
+      - grounding
+  - source: contract-first
+    type: kin
+    label: kin
+    targets:
+      - honest-signal
+  - source: contract-first
+    type: kin
+    label: kin
+    targets:
+      - parsimony
+  - source: grounding
+    type: kin
+    label: kin
+    targets:
+      - contract-first
+  - source: honest-signal
+    type: kin
+    label: kin
+    targets:
+      - contract-first
+  - source: parsimony
+    type: kin
+    label: kin
+    targets:
+      - contract-first

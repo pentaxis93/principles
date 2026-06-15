@@ -120,10 +120,9 @@ itself exists under). DRY is this projection at the scale of code.*
   [Grounding](grounding.md)'s *read the manual* projection are the same
   move in two domains: enforcement consults its authority; cognition
   consults its substrate.
-- **composition** — Contract-First : build-on-contracts face of
-  [Sovereignty](sovereignty.md) ∘ [Sequence](sequence.md) ∘
-  [Single Home](single-home.md); the contract is the one authoritative
-  surface every layer consults or derives from.
+- **composition** — [Contract-First](../compositions/contract-first.md):
+  the declaration is the one authoritative surface every layer consults
+  or derives from, so the seam's truth keeps a single home.
 - **kin** — [Parsimony](parsimony.md): a duplicate is also an unearned
   element, but the dissolved evolution boundary is the deeper cost.
 

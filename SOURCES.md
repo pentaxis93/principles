@@ -153,6 +153,28 @@ corpus home. The reckon's disposition is recorded here.
 |---|---|---|
 | Win-or-learn game stance, distilled from E.J. Gold's game-as-practice teaching (to win, or to learn — not both at once) | projection | [Grounding](principles/grounding.md) (projection *play to learn, not to win*). **Not a universal.** The bare mutual-exclusivity claim is a fork with no chosen tine — it states a tension without binding a stance, so it carries no normative content for an agent; and as a hard law ("never both") it is a vivid heuristic, not a domain-neutral invariant (deliberate practice blends the two). The agent-relevant content is the *bias toward the learn-frame where the work needs a grounded diagnosis*: the outcome-metric is a proxy and is not an input to the play. That bias is [Grounding](principles/grounding.md)'s *resist proxies* family applied to attentional stance, so it attaches as a projection rather than ascending. Consumer instance: with-claude `agent-governance.md`'s regeneration-count vow (the count is the win-surface). A second consumer is queued — with-claude [#100](https://github.com/pentaxis93/with-claude/issues/100), a gamified compliance lever, which is the win-frame turned into a design tool and carries this projection's caution |
 
+## Post-synthesis ascent — Contract-First ([#23](https://github.com/pentaxis93/principles/issues/23))
+
+The contract — the explicit, checkable seam between two parts, declared in
+the substrate and verified against — is homed as a named composition
+document, [Contract-First](compositions/contract-first.md): a discipline of
+four existing universals carrying composition-level content no constituent
+edge holds (the contract as the unit of agentic composition, and the
+force-and-time to energy-state isomorphism). The form was reckoned as a
+composition rather than a new universal — its invariant decomposes into
+existing universals acting together. It introduces no new register item;
+each item it assembles is already classified above. Its coverage, by role in
+the composition:
+
+| Already-classified item | Home (per above) | Role in Contract-First |
+|---|---|---|
+| commons ADR-0001 Sovereignty; DESIGN-PRINCIPLES §14 (spec/impl separate scopes) | [Sovereignty](principles/sovereignty.md) | constituent — the declared WHAT/HOW boundary the contract realizes |
+| commons DESIGN-PRINCIPLES §18 (schema is the source) | [Single Home](principles/single-home.md) | constituent — the declaration as the one authoritative locus of the seam |
+| commons DESIGN-PRINCIPLES §20 (verify before act) | [Verifiable Completion](principles/verifiable-completion.md) | constituent — each side verified against the declaration, not its own report |
+| commons PRINCIPLES §2 (behavior before implementation — BDD) | [Sequence](principles/sequence.md) | constituent — built to the declaration; BDD is its behavioral form |
+| commons DESIGN-PRINCIPLES §17 (interfaces describe themselves) | [Transmission](principles/transmission.md) | related — the self-describing surface is the contract told truthfully; kin via [Honest Signal](principles/honest-signal.md) |
+| commons ADR-0015 Mode Is a Property of the Session | retained (Register 3) | the dual-mode session contracts instantiate this composition; its principle content already reaches the corpus via Design Principle 21 → Sovereignty |
+
 ## Inbound change-vectors resolved natively
 
 Two open with-claude reckons were resolved by this synthesis rather than

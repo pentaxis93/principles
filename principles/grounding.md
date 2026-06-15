@@ -141,6 +141,9 @@ the count is the win-surface, held out of the diagnosis.*
   cognition consults its substrate.
 - **kin** — [Transmission](transmission.md): grounding names whose
   reality decides; transmission makes the artifact land in that reality.
+- **kin** — [Contract-First](../compositions/contract-first.md): a
+  contract in the substrate is reality, not residue — a consumer grounds
+  in it as territory.
 
 ## Sources
 

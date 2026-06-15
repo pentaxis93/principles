@@ -91,10 +91,10 @@ it.*
 - **composition** — Safe Delegation : [Sovereignty](sovereignty.md) ∘
   [Verifiable Completion](verifiable-completion.md); the owner of WHAT
   verifies outcomes instead of supervising steps.
-- **composition** — Contract-First : ownership face of
-  [Sovereignty](sovereignty.md) ∘ [Sequence](sequence.md) ∘
-  [Single Home](single-home.md); the contract defines the boundary
-  between what each side guarantees and how each side satisfies it.
+- **composition** — [Contract-First](../compositions/contract-first.md):
+  the contract is the structural realization of Sovereignty's WHAT/HOW
+  boundary, declared as a surface where only what must cross is named and
+  each side's HOW stays its own.
 - **kin** — [Positive Form](positive-form.md): declarative framing is
   the procedural axis — who holds WHAT and who holds HOW. Positive Form
   owns how the durable WHAT itself is encoded.
