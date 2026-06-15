@@ -1,9 +1,9 @@
 # Ontology
 
-This is the corpus's form contract. Every principle document,
-composition document, source classification, and graph edge consults or
-derives from this document; the README orients readers to the corpus, but
-this document owns the corpus's form.
+This renders the corpus's form contract for readers. The
+machine-checkable structural spine lives in [ontology.yaml](ontology.yaml);
+the prose renderings here are checked against it. The README orients
+readers to the corpus.
 
 ## Relationship taxonomy
 
@@ -23,7 +23,7 @@ in each document's **Relations** section.
 | **dual** | One invariant seen from two aspects. | Relations | symmetric | reciprocal: both endpoints carry it | `dual` - or `dual (tension)` - `[Other](...)`: the one invariant seen as two aspects |
 | **isomorphism** | The same move recurring in different domains. | Relations | symmetric | reciprocal: both endpoints carry it | `isomorphism` - `[Other](...)`: the shared move, named in each domain |
 | **enables** | One principle is the precondition of another's existence or sound operation. | Relations | directional: A enables B | reciprocal: target B carries `enabled-by` back to A | on A: `enables` - `[B](...)`: B's precondition; on B: `enabled-by` - `[A](...)` |
-| **kin** | Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other. | Relations | symmetric | reciprocal: both endpoints carry it | `kin` - `[Other](...)`: the shared demand or family resemblance |
+| **kin** | Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other. | Relations | symmetric | reciprocal: both endpoints carry it | `kin` - or `kin (boundary)` - `[Other](...)`: the shared demand or family resemblance |
 
 Every relation label in use is either declared or folded:
 
@@ -38,6 +38,7 @@ Every relation label in use is either declared or folded:
 | **kin** | declared as `kin` |
 | **enabled-by** | reciprocal rendering of `enables` |
 | **dual (tension)** | sanctioned annotation on `dual` when the two aspects bound an axis from opposite sides |
+| **kin (boundary)** | sanctioned annotation on `kin` when a relation marks the boundary between a dosed lever and an undosed constitutive demand |
 | **soundness condition** | folded into `enables`; the type is the precondition class, and the edge prose carries the soundness flavor |
 | **fed-by** | folded into `enables`; the type is the precondition class, and the edge prose carries the supply-of-input flavor |
 | **composed-of** | folded into `composition` as the composition-document-side rendering of its constituents |
