@@ -1,0 +1,280 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pentaxis93/principles/ontology.schema.json",
+  "title": "Principles corpus ontology contract",
+  "description": "Shape contract for ontology.yaml. Type-set closure and required fields are enforced here; cross-cutting invariants (referential integrity, reciprocity, orphans, file existence, prose coverage) are enforced by validate.py.",
+  "type": "object",
+  "required": [
+    "version",
+    "nodes",
+    "relation_types",
+    "folds",
+    "compositions",
+    "edges",
+    "document_schema",
+    "composition_rules",
+    "sources_schema",
+    "topology",
+    "renderings"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "node_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "doc_form": {
+      "type": "object",
+      "required": ["description", "sections", "required"],
+      "additionalProperties": false,
+      "properties": {
+        "description": { "type": "string" },
+        "sections": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "required": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+      }
+    }
+  },
+  "properties": {
+    "version": { "type": "integer", "const": 1 },
+
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "file"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/node_id" },
+          "type": { "enum": ["principle", "composition"] },
+          "movement": { "enum": ["ground", "shape", "protect", "land"] },
+          "file": { "type": "string", "pattern": "\\.md$" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "principle" } } },
+            "then": { "required": ["movement"] }
+          }
+        ]
+      }
+    },
+
+    "relation_types": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["meaning", "placement", "directionality", "reciprocity", "rendering"],
+        "additionalProperties": false,
+        "properties": {
+          "meaning": { "type": "string" },
+          "placement": { "enum": ["in-document", "relations"] },
+          "directionality": { "enum": ["directional", "symmetric"] },
+          "reciprocity": { "enum": ["none", "reciprocal"] },
+          "rendering": { "type": "string" },
+          "annotations": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "folds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "into", "kind", "note"],
+        "additionalProperties": false,
+        "properties": {
+          "label": { "type": "string" },
+          "into": { "type": "string" },
+          "kind": {
+            "enum": [
+              "reciprocal-rendering",
+              "annotation",
+              "prose-flavor",
+              "composition-doc-rendering"
+            ]
+          },
+          "note": { "type": "string" }
+        }
+      }
+    },
+
+    "compositions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "members", "documented", "file"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string", "pattern": "^[A-Z]" },
+          "members": {
+            "type": "array",
+            "minItems": 2,
+            "items": { "$ref": "#/$defs/node_id" }
+          },
+          "documented": { "type": "boolean" },
+          "file": { "type": ["string", "null"] },
+          "node": { "$ref": "#/$defs/node_id" },
+          "face": { "type": "string" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "documented": { "const": true } } },
+            "then": {
+              "required": ["file", "node"],
+              "properties": { "file": { "type": "string", "pattern": "\\.md$" } }
+            }
+          },
+          {
+            "if": { "properties": { "documented": { "const": false } } },
+            "then": { "properties": { "file": { "type": "null" } } }
+          }
+        ]
+      }
+    },
+
+    "edges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["type", "from", "to"],
+        "additionalProperties": false,
+        "properties": {
+          "type": { "enum": ["dual", "isomorphism", "kin", "enables"] },
+          "from": { "$ref": "#/$defs/node_id" },
+          "to": { "$ref": "#/$defs/node_id" },
+          "tension": { "type": "boolean" },
+          "boundary": { "type": "boolean" },
+          "flavor": { "enum": ["soundness condition", "fed-by"] },
+          "note": { "type": "string" }
+        },
+        "allOf": [
+          {
+            "comment": "tension annotates dual only",
+            "if": { "required": ["tension"] },
+            "then": { "properties": { "type": { "const": "dual" } } }
+          },
+          {
+            "comment": "boundary annotates kin only",
+            "if": { "required": ["boundary"] },
+            "then": { "properties": { "type": { "const": "kin" } } }
+          },
+          {
+            "comment": "soundness/fed-by flavor folds into enables only",
+            "if": { "required": ["flavor"] },
+            "then": { "properties": { "type": { "const": "enables" } } }
+          }
+        ]
+      }
+    },
+
+    "document_schema": {
+      "type": "object",
+      "required": ["principle", "composition"],
+      "additionalProperties": false,
+      "properties": {
+        "principle": { "$ref": "#/$defs/doc_form" },
+        "composition": { "$ref": "#/$defs/doc_form" }
+      }
+    },
+
+    "composition_rules": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+
+    "sources_schema": {
+      "type": "object",
+      "required": ["registers", "classifications", "check_rule"],
+      "additionalProperties": false,
+      "properties": {
+        "registers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "source"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "integer" },
+              "source": { "type": "string" }
+            }
+          }
+        },
+        "classifications": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "meaning"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string" },
+              "meaning": { "type": "string" }
+            }
+          }
+        },
+        "check_rule": { "type": "string" }
+      }
+    },
+
+    "topology": {
+      "type": "object",
+      "required": ["movements", "center"],
+      "additionalProperties": false,
+      "properties": {
+        "movements": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "numeral", "name", "question", "principles", "removal_failure"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "enum": ["ground", "shape", "protect", "land"] },
+              "numeral": { "type": "string" },
+              "name": { "type": "string" },
+              "question": { "type": "string" },
+              "principles": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "$ref": "#/$defs/node_id" }
+              },
+              "removal_failure": { "type": "string" }
+            }
+          }
+        },
+        "center": {
+          "type": "object",
+          "required": ["id", "name", "claim"],
+          "additionalProperties": false,
+          "properties": {
+            "id": { "type": "string" },
+            "name": { "type": "string" },
+            "claim": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "renderings": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["surface", "derivation"],
+        "additionalProperties": false,
+        "properties": {
+          "surface": { "type": "string" },
+          "derivation": { "type": "string" }
+        }
+      }
+    }
+  }
+}

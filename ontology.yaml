@@ -1,0 +1,523 @@
+# Ontology — the corpus's structural spine.
+#
+# This file is the single home of the corpus's *structure*: its nodes,
+# its relation-type system, its edges, its compositions, and the schemas
+# and topology that bind its form. The prose markdown files remain the
+# corpus's *meaning* surface; their structural Relations edges and the
+# README relationship-taxonomy table derive from / are checked against
+# this file (see `renderings`). `ONTOLOGY.md` is the human-readable face
+# of the same contract.
+#
+# Validated by `ontology.schema.json` (shape) plus `validate.py`
+# (cross-cutting invariants). Run `python3 validate.py` from the repo
+# root; exit 0 is conformance.
+
+version: 1
+
+# ---------------------------------------------------------------------------
+# Nodes — every doc-bearing element of the corpus. A node has a home file.
+# `movement` is carried by principles only (the topology assigns it).
+# ---------------------------------------------------------------------------
+nodes:
+  # Movement I — Ground
+  - id: grounding
+    type: principle
+    movement: ground
+    file: principles/grounding.md
+  - id: traceability
+    type: principle
+    movement: ground
+    file: principles/traceability.md
+  - id: sovereignty
+    type: principle
+    movement: ground
+    file: principles/sovereignty.md
+  - id: sequence
+    type: principle
+    movement: ground
+    file: principles/sequence.md
+  # Movement II — Shape
+  - id: parsimony
+    type: principle
+    movement: shape
+    file: principles/parsimony.md
+  - id: single-home
+    type: principle
+    movement: shape
+    file: principles/single-home.md
+  - id: positive-form
+    type: principle
+    movement: shape
+    file: principles/positive-form.md
+  - id: evolvability
+    type: principle
+    movement: shape
+    file: principles/evolvability.md
+  # Movement III — Protect
+  - id: honest-signal
+    type: principle
+    movement: protect
+    file: principles/honest-signal.md
+  - id: source-repair
+    type: principle
+    movement: protect
+    file: principles/source-repair.md
+  - id: obligation-to-dissent
+    type: principle
+    movement: protect
+    file: principles/obligation-to-dissent.md
+  - id: recursive-improvement
+    type: principle
+    movement: protect
+    file: principles/recursive-improvement.md
+  # Movement IV — Land
+  - id: transmission
+    type: principle
+    movement: land
+    file: principles/transmission.md
+  - id: verifiable-completion
+    type: principle
+    movement: land
+    file: principles/verifiable-completion.md
+  # Composition documents (compositions that earned their own file)
+  - id: completed-noticing
+    type: composition
+    file: compositions/completed-noticing.md
+  - id: dosed-compliance
+    type: composition
+    file: compositions/dosed-compliance.md
+
+# ---------------------------------------------------------------------------
+# Relation types — the reconciled type system. Every type label that
+# appears in the corpus is either `declared` here or `folded` (below).
+# A type is declared when it carries structure no existing type can hold;
+# it folds when an existing type already holds the structure and the edge
+# prose preserves the local flavor.
+# ---------------------------------------------------------------------------
+relation_types:
+  projection:
+    meaning: A universal instantiated in a domain form.
+    placement: in-document
+    directionality: directional      # universal -> domain form
+    reciprocity: none                # intra-document
+    rendering: >-
+      listed under **Projections**, each projection naming its source
+      register item
+  corollary:
+    meaning: A same-level consequence derivable from a universal.
+    placement: in-document
+    directionality: directional      # universal -> consequence
+    reciprocity: none                # intra-document
+    rendering: stated under **Corollaries** as a named same-level consequence
+  composition:
+    meaning: Two or more universals acting together as one discipline.
+    placement: relations
+    directionality: symmetric        # among constituents
+    reciprocity: reciprocal          # every constituent carries the edge
+    rendering: >-
+      `<Name> : <this document's face>`, with the name linked iff a
+      `compositions/` document exists
+  dual:
+    meaning: One invariant seen from two aspects.
+    placement: relations
+    directionality: symmetric
+    reciprocity: reciprocal          # both endpoints carry it
+    rendering: >-
+      `dual` - or `dual (tension)` - `[Other](...)`: the one invariant
+      seen as two aspects
+    annotations: [tension]           # see folds: dual (tension)
+  isomorphism:
+    meaning: The same move recurring in different domains.
+    placement: relations
+    directionality: symmetric
+    reciprocity: reciprocal
+    rendering: "`isomorphism` - `[Other](...)`: the shared move, named in each domain"
+  enables:
+    meaning: >-
+      One principle is the precondition of another's existence or sound
+      operation.
+    placement: relations
+    directionality: directional      # A enables B
+    reciprocity: reciprocal          # target B carries `enabled-by` back to A
+    rendering: >-
+      on A: `enables` - `[B](...)`: B's precondition; on B: `enabled-by`
+      - `[A](...)`
+  kin:
+    meaning: >-
+      Distinct invariants share a family resemblance, or make the same
+      demand at two sites, without one deriving from the other.
+    placement: relations
+    directionality: symmetric
+    reciprocity: reciprocal
+    rendering: "`kin` - `[Other](...)`: the shared demand or family resemblance"
+    annotations: [boundary]          # see folds: kin (boundary)
+
+# ---------------------------------------------------------------------------
+# Fold table — every label in use that is not itself a declared type,
+# and the declared type it renders against. The taxonomy uses the
+# smallest set the material requires.
+# ---------------------------------------------------------------------------
+folds:
+  - label: enabled-by
+    into: enables
+    kind: reciprocal-rendering
+    note: the reverse rendering of a directed `enables` edge; not a separate edge.
+  - label: dual (tension)
+    into: dual
+    kind: annotation
+    note: >-
+      sanctioned annotation on `dual` when the two aspects bound an axis
+      from opposite sides. Carried on the edge as `tension: true`.
+  - label: kin (boundary)
+    into: kin
+    kind: annotation
+    note: >-
+      sanctioned annotation on `kin` when the two share a discriminating
+      boundary rather than a plain family resemblance. Carried on the edge
+      as `boundary: true`. (Reconciled in #19, parallel to dual (tension).)
+  - label: soundness condition
+    into: enables
+    kind: prose-flavor
+    note: >-
+      the precondition is of the *soundness* class; the `enables` edge
+      prose carries the soundness flavor.
+  - label: fed-by
+    into: enables
+    kind: prose-flavor
+    note: >-
+      the precondition is a *supply of input*; the `enables` edge prose
+      carries the supply flavor.
+  - label: composed-of
+    into: composition
+    kind: composition-doc-rendering
+    note: >-
+      the composition-document-side rendering of its constituents; the
+      same relationship the constituents carry as `composition`.
+
+# ---------------------------------------------------------------------------
+# Compositions — named disciplines made of several universals acting as
+# one. A composition is an n-ary relationship over its `members`. It
+# earns a `compositions/` document (documented: true) only when it carries
+# content no edge can hold; otherwise it lives as an edge form across its
+# members' Relations sections (documented: false, file: null).
+# Every member carries the reciprocal `composition` edge.
+# ---------------------------------------------------------------------------
+compositions:
+  - name: Everything Earns Its Place
+    members: [grounding, parsimony]
+    documented: false
+    file: null
+    face: >-
+      grounding prevents unearned elements from entering; parsimony
+      removes them when they lose their justification.
+  - name: Completed Noticing
+    members:
+      - grounding
+      - verifiable-completion
+      - obligation-to-dissent
+      - transmission
+      - recursive-improvement
+      - sequence
+    documented: true
+    file: compositions/completed-noticing.md
+    node: completed-noticing
+    face: the five-move work cycle; ordering owned by Sequence.
+  - name: Dosed Compliance
+    members: [grounding, parsimony, evolvability]
+    documented: true
+    file: compositions/dosed-compliance.md
+    node: dosed-compliance
+    face: a desired property is produced from a menu, not maximized through a gate.
+  - name: Safe Delegation
+    members: [sovereignty, verifiable-completion]
+    documented: false
+    file: null
+    face: the owner of WHAT verifies outcomes instead of supervising steps.
+  - name: Contract-First
+    members: [sovereignty, sequence, single-home]
+    documented: false
+    file: null
+    face: >-
+      the contract defines the boundary between what each side guarantees
+      and how each side satisfies it; the prior stage whose output each
+      layer requires; the one authoritative surface every layer consults.
+  - name: Repair at the Emitter
+    members: [honest-signal, source-repair]
+    documented: false
+    file: null
+    face: >-
+      the false signal is repaired at the artifact that emits it, not
+      annotated where it is noticed.
+  - name: Act at the Source
+    members: [obligation-to-dissent, source-repair]
+    documented: false
+    file: null
+    face: >-
+      dissent supplies the obligation to act on a seen defect; source
+      repair supplies the locus where the action lands.
+  - name: History Lives in Version Control
+    members: [positive-form, single-home]
+    documented: false
+    file: null
+    face: >-
+      a durable claim is present-only, and history has exactly one home —
+      the record — of which a durable document is not one.
+
+# ---------------------------------------------------------------------------
+# Edges — the binary typed relationships. Composition (n-ary) lives in
+# `compositions` above; `projection`/`corollary` are in-document and live
+# in the prose docs. These edges are the inter-node Relations edges:
+# `dual`, `isomorphism`, `kin`, `enables`. Each is stored once (the single
+# home); the two prose renderings derive from it (see `renderings`).
+#
+# `to` resolves to a node id or to a topology element id (`center`).
+# `tension: true` and `boundary: true` carry the sanctioned annotations.
+# `note` carries the prose flavor for soundness-condition / fed-by edges.
+# ---------------------------------------------------------------------------
+edges:
+  # dual (symmetric) -------------------------------------------------------
+  - type: dual
+    from: grounding
+    to: traceability
+    note: position and momentum — the static and dynamic faces of one act.
+  - type: dual
+    from: evolvability
+    to: recursive-improvement
+    note: the same loop seen from its two sides — design-time structure and runtime force.
+  - type: dual
+    from: parsimony
+    to: evolvability
+    tension: true
+    note: >-
+      parsimony forbids speculative weight; evolvability forbids forward
+      debt. The pair bounds the same axis from opposite sides.
+
+  # isomorphism (symmetric) ------------------------------------------------
+  - type: isomorphism
+    from: grounding
+    to: single-home
+    note: >-
+      *read the manual* and *consult, don't model* — the same move in two
+      domains: cognition consults its substrate; enforcement consults its
+      authority.
+
+  # kin (symmetric) --------------------------------------------------------
+  - type: kin
+    from: grounding
+    to: transmission
+    note: grounding names whose reality decides; transmission makes the artifact land in it.
+  - type: kin
+    from: parsimony
+    to: single-home
+    note: a duplicate is also an unearned element; the dissolved evolution boundary is the deeper cost.
+  - type: kin
+    from: parsimony
+    to: positive-form
+    note: a negative encoding is unearned weight; author-relativity is the deeper defect.
+  - type: kin
+    from: positive-form
+    to: sovereignty
+    note: >-
+      both yield declarative sentences; the discriminator is whether the
+      defect crossed an ownership boundary or fossilized the author's journey.
+  - type: kin
+    from: traceability
+    to: verifiable-completion
+    note: evidence decides the claim; the chain decides the conclusion — the same demand at two sites.
+  - type: kin
+    from: honest-signal
+    to: verifiable-completion
+    note: surfaces must not lie; claims must not outrun evidence — the same demand at two sites.
+  - type: kin
+    from: verifiable-completion
+    to: dosed-compliance
+    boundary: true
+    note: >-
+      the dose decides whether a gate is built; this principle governs what
+      any completion claim must do regardless. Evidence takes no dosed qualifier.
+  - type: kin
+    from: completed-noticing
+    to: center
+    note: >-
+      the four movements traversed as one turn of the cycle. Whether the
+      center is eventually stated as this composition is left to the spiral.
+
+  # enables (directional; target carries `enabled-by`) ---------------------
+  - type: enables
+    from: grounding
+    to: sequence
+    note: grounding supplies the input sequence requires at the design boundary.
+  - type: enables
+    from: sovereignty
+    to: transmission
+    note: a clean WHAT lets the recipient own their HOW.
+  - type: enables
+    from: sequence
+    to: verifiable-completion
+    note: verification-before-claim is sequence applied to the final boundary of a unit of work.
+  - type: enables
+    from: single-home
+    to: recursive-improvement
+    note: the single home is the precondition of the spiral; its unit of action is a bounded asset.
+  - type: enables
+    from: single-home
+    to: verifiable-completion
+    flavor: soundness condition
+    note: >-
+      consulting the governing authority is the soundness condition for a
+      gate; a gate that models its authority can pass what the authority rejects.
+  - type: enables
+    from: source-repair
+    to: recursive-improvement
+    note: repairing the producer rather than the product turns object-work into process-work.
+  - type: enables
+    from: obligation-to-dissent
+    to: recursive-improvement
+    note: surfaced friction is the spiral's raw material; swallowed friction starves it.
+
+# ---------------------------------------------------------------------------
+# Document schema — the form a node's home file takes.
+# ---------------------------------------------------------------------------
+document_schema:
+  principle:
+    description: A principle document carries one universal.
+    sections:
+      - title                  # the universal's canonical name
+      - movement-line          # topology movement + link back to index
+      - invariant-block        # the universal in one durable sentence/paragraph
+      - the-universal          # domain-neutral exposition incl. Recognition + Corrective
+      - corollaries            # when the universal has named same-level consequences
+      - projections            # when the universal has domain forms, each naming a source item
+      - relations              # typed edges to other principles/compositions
+      - sources                # links to every source register item that shaped it
+    required: [title, movement-line, invariant-block, the-universal, relations, sources]
+  composition:
+    description: A composition document carries a named discipline of several universals.
+    sections:
+      - title                  # the composition's Title Case name
+      - named-composition-line # named-composition label + index link
+      - invariant-block        # the composition's own invariant
+      - body                   # content no constituent edge can hold (invariant, cycle, ownership, failure modes)
+      - relations              # constituent list + reciprocal edges
+      - sources
+    required: [title, named-composition-line, invariant-block, body, relations, sources]
+
+# ---------------------------------------------------------------------------
+# Composition rules — when a composition is an edge vs. a document.
+# ---------------------------------------------------------------------------
+composition_rules:
+  - A composition lives as an edge in its constituents' Relations by default.
+  - >-
+    It earns a `compositions/` document only when it carries content no edge
+    can hold: its own invariant, its own failure modes, or another claim that
+    belongs to the composition rather than to any constituent.
+  - >-
+    Every constituent carries the edge, naming the composition and that
+    constituent's face. A documented composition additionally lists its
+    constituents; each constituent carries the reciprocal `composition` edge.
+  - >-
+    Composition names are Title Case noun phrases. Rendering form is
+    `<Name> : <this document's face>`, with the name linked iff a
+    `compositions/` document exists.
+
+# ---------------------------------------------------------------------------
+# Sources schema — the form contract for SOURCES.md. The coverage *content*
+# (the per-item classification map) is single-homed in SOURCES.md; this
+# block states only its *schema*, and the check rule the validator applies.
+# ---------------------------------------------------------------------------
+sources_schema:
+  registers:
+    - id: 1
+      source: tesserine/commons/PRINCIPLES.md
+    - id: 2
+      source: tesserine/commons/DESIGN-PRINCIPLES.md
+    - id: 3
+      source: tesserine/commons/adr/
+    - id: 4
+      source: pentaxis93/with-claude/_shared/principles.md
+    - id: 5
+      source: tesserine/groundwork/skills/reckon/SKILL.md §Navigational Principles
+  classifications:
+    - id: ascended
+      meaning: raised to its universal level and living in a canonical principle.
+    - id: projection
+      meaning: attached as a domain projection or corollary inside a universal's document.
+    - id: retained
+      meaning: a genuine decision or design artifact; stays in its home, not a principle.
+    - id: out of scope
+      meaning: not corpus material, with the reason stated.
+  check_rule: >-
+    Every classification verb used in SOURCES.md is in `classifications`;
+    every register heading in SOURCES.md corresponds to a `registers` entry.
+    The reverse traversal (each universal's Sources section) is prose and
+    single-homed in the documents.
+
+# ---------------------------------------------------------------------------
+# Topology — the four movements with a center. Movements move in order:
+# each produces the ground the next requires. `center` is a resolvable
+# element (the spiral); edges may target it.
+# ---------------------------------------------------------------------------
+topology:
+  movements:
+    - id: ground
+      numeral: I
+      name: Ground
+      question: What is true, and who owns what?
+      principles: [grounding, traceability, sovereignty, sequence]
+      removal_failure: >-
+        elegant fiction — sovereignty confusion, inherited framing,
+        untraceable chains, arbitrary order. The system cannot see.
+    - id: shape
+      numeral: II
+      name: Shape
+      question: Is the answer earned, single, stated as itself, and durable?
+      principles: [parsimony, single-home, positive-form, evolvability]
+      removal_failure: >-
+        sprawl — unearned weight, duplicated truth, forward debt. The
+        system calcifies.
+    - id: protect
+      numeral: III
+      name: Protect
+      question: Does the system tell the truth and repair itself?
+      principles: [honest-signal, source-repair, obligation-to-dissent, recursive-improvement]
+      removal_failure: >-
+        decay — silent surfaces, patched symptoms, swallowed problems,
+        object-only work. The system rots.
+    - id: land
+      numeral: IV
+      name: Land
+      question: Can the recipient act, and is completion a fact?
+      principles: [transmission, verifiable-completion]
+      removal_failure: >-
+        waste — work that never ships, or ships as assertion instead of
+        fact. The system produces but does not deliver.
+  center:
+    id: center
+    name: the spiral
+    claim: >-
+      refinement plus propulsion. Work grounds, takes shape, is protected,
+      lands, and the friction of landing feeds the next turn.
+
+# ---------------------------------------------------------------------------
+# Renderings — how each prose surface derives from this graph. The graph is
+# the single home; these surfaces are checked against it (child 2 conforms
+# the prose to derive from here).
+# ---------------------------------------------------------------------------
+renderings:
+  readme_taxonomy_table:
+    surface: README.md / ONTOLOGY.md relationship-taxonomy table
+    derivation: >-
+      One row per declared `relation_types` entry (its meaning, placement,
+      directionality, reciprocity, rendering), followed by the `folds` table
+      mapping each label to its declared type. The set of declared types is
+      exactly the keys of `relation_types`.
+  per_file_relations_edges:
+    surface: each node's **Relations** section
+    derivation: >-
+      For a node N, its Relations bullets are: every `edges` entry with
+      `from: N` rendered in its type's source form, and every `edges` entry
+      with `to: N` rendered in its type's reciprocal form (`enabled-by` for
+      `enables`; the symmetric form for `dual`/`isomorphism`/`kin`); plus, for
+      each `compositions` entry whose `members` include N, the composition
+      edge in `<Name> : <N's face>` form. Annotations render as `dual (tension)`
+      and `kin (boundary)`.
