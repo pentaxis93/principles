@@ -141,6 +141,18 @@ consumer methodology documents; it ascended as the fourteenth universal,
 | with-claude [#103](https://github.com/pentaxis93/with-claude/issues/103) / [#104](https://github.com/pentaxis93/with-claude/issues/104), the negative-exception-framing audit | ascended | [Positive Form](principles/positive-form.md) — the audits' invariant (carve-outs stated as exceptions restate as positive firing conditions) is absorbed into the universal's boundary clause |
 | babbie-ops [#54](https://github.com/pentaxis93/babbie-ops/issues/54), the contract test positively asserting the corrected boundary | projection | [Positive Form](principles/positive-form.md) (projection *assert the corrected boundary*) |
 
+## Post-synthesis ascent — Play to Learn ([#5](https://github.com/pentaxis93/principles/issues/5))
+
+A game stance inspired by E.J. Gold's game-as-practice teaching was
+surfaced as a candidate
+principle and was already load-bearing in consumer methodology
+(with-claude `agent-governance.md`'s regeneration-count vow) but had no
+corpus home. The reckon's disposition is recorded here.
+
+| Item | Classification | Destination / reason |
+|---|---|---|
+| Win-or-learn game stance, distilled from E.J. Gold's game-as-practice teaching (to win, or to learn — not both at once) | projection | [Grounding](principles/grounding.md) (projection *play to learn, not to win*). **Not a universal.** The bare mutual-exclusivity claim is a fork with no chosen tine — it states a tension without binding a stance, so it carries no normative content for an agent; and as a hard law ("never both") it is a vivid heuristic, not a domain-neutral invariant (deliberate practice blends the two). The agent-relevant content is the *bias toward the learn-frame where the work needs a grounded diagnosis*: the outcome-metric is a proxy and is not an input to the play. That bias is [Grounding](principles/grounding.md)'s *resist proxies* family applied to attentional stance, so it attaches as a projection rather than ascending. Consumer instance: with-claude `agent-governance.md`'s regeneration-count vow (the count is the win-surface). A second consumer is queued — with-claude [#100](https://github.com/pentaxis93/with-claude/issues/100), a gamified compliance lever, which is the win-frame turned into a design tool and carries this projection's caution |
+
 ## Inbound change-vectors resolved natively
 
 Two open with-claude reckons were resolved by this synthesis rather than
