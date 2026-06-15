@@ -1,0 +1,540 @@
+schema_version: 1
+
+relation_types:
+  - name: projection
+    meaning: A universal instantiated in a domain form.
+    placement: in-document
+    directionality: "directional: universal -> domain form"
+    reciprocity: none; intra-document
+    rendering: listed under **Projections**, each projection naming its source register item
+  - name: corollary
+    meaning: A same-level consequence derivable from a universal.
+    placement: in-document
+    directionality: "directional: universal -> consequence"
+    reciprocity: none; intra-document
+    rendering: stated under **Corollaries** as a named same-level consequence
+  - name: composition
+    meaning: Two or more universals acting together as one discipline.
+    placement: Relations
+    directionality: symmetric among constituents
+    reciprocity: "reciprocal: every constituent carries the edge"
+    rendering: "`<Name> : <this document's face>`, with the name linked iff a `compositions/` document exists"
+  - name: dual
+    meaning: One invariant seen from two aspects.
+    placement: Relations
+    directionality: symmetric
+    reciprocity: "reciprocal: both endpoints carry it"
+    rendering: "`dual` - or `dual (tension)` - `[Other](...)`: the one invariant seen as two aspects"
+    annotations:
+      - label: tension
+        meaning: The two aspects bound an axis from opposite sides.
+  - name: isomorphism
+    meaning: The same move recurring in different domains.
+    placement: Relations
+    directionality: symmetric
+    reciprocity: "reciprocal: both endpoints carry it"
+    rendering: "`isomorphism` - `[Other](...)`: the shared move, named in each domain"
+  - name: enables
+    meaning: One principle is the precondition of another's existence or sound operation.
+    placement: Relations
+    directionality: "directional: A enables B"
+    reciprocity: "reciprocal: target B carries `enabled-by` back to A"
+    rendering: "on A: `enables` - `[B](...)`: B's precondition; on B: `enabled-by` - `[A](...)`"
+  - name: kin
+    meaning: Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other.
+    placement: Relations
+    directionality: symmetric
+    reciprocity: "reciprocal: both endpoints carry it"
+    rendering: "`kin` - or `kin (boundary)` - `[Other](...)`: the shared demand or family resemblance"
+    annotations:
+      - label: boundary
+        meaning: The relation marks a boundary between a dosed lever and an undosed constitutive demand.
+
+folds:
+  - label: projection
+    canonical_type: projection
+    disposition: declared as `projection`
+  - label: corollary
+    canonical_type: corollary
+    disposition: declared as `corollary`
+  - label: composition
+    canonical_type: composition
+    disposition: declared as `composition`
+  - label: dual
+    canonical_type: dual
+    disposition: declared as `dual`
+  - label: isomorphism
+    canonical_type: isomorphism
+    disposition: declared as `isomorphism`
+  - label: enables
+    canonical_type: enables
+    disposition: declared as `enables`
+  - label: kin
+    canonical_type: kin
+    disposition: declared as `kin`
+  - label: enabled-by
+    canonical_type: enables
+    disposition: reciprocal rendering of `enables`
+  - label: dual (tension)
+    canonical_type: dual
+    annotation: tension
+    disposition: sanctioned annotation on `dual` when the two aspects bound an axis from opposite sides
+  - label: kin (boundary)
+    canonical_type: kin
+    annotation: boundary
+    disposition: sanctioned annotation on `kin` when a relation marks the boundary between a dosed lever and an undosed constitutive demand
+  - label: soundness condition
+    canonical_type: enables
+    disposition: folded into `enables`; the type is the precondition class, and the edge prose carries the soundness flavor
+  - label: fed-by
+    canonical_type: enables
+    disposition: folded into `enables`; the type is the precondition class, and the edge prose carries the supply-of-input flavor
+  - label: composed-of
+    canonical_type: composition
+    disposition: folded into `composition` as the composition-document-side rendering of its constituents
+
+nodes:
+  - id: evolvability
+    title: Evolvability
+    kind: principle
+    path: principles/evolvability.md
+  - id: grounding
+    title: Grounding
+    kind: principle
+    path: principles/grounding.md
+  - id: honest-signal
+    title: Honest Signal
+    kind: principle
+    path: principles/honest-signal.md
+  - id: obligation-to-dissent
+    title: Obligation to Dissent
+    kind: principle
+    path: principles/obligation-to-dissent.md
+  - id: parsimony
+    title: Parsimony
+    kind: principle
+    path: principles/parsimony.md
+  - id: positive-form
+    title: Positive Form
+    kind: principle
+    path: principles/positive-form.md
+  - id: recursive-improvement
+    title: Recursive Improvement
+    kind: principle
+    path: principles/recursive-improvement.md
+  - id: sequence
+    title: Sequence
+    kind: principle
+    path: principles/sequence.md
+  - id: single-home
+    title: Single Home
+    kind: principle
+    path: principles/single-home.md
+  - id: source-repair
+    title: Source Repair
+    kind: principle
+    path: principles/source-repair.md
+  - id: sovereignty
+    title: Sovereignty
+    kind: principle
+    path: principles/sovereignty.md
+  - id: traceability
+    title: Traceability
+    kind: principle
+    path: principles/traceability.md
+  - id: transmission
+    title: Transmission
+    kind: principle
+    path: principles/transmission.md
+  - id: verifiable-completion
+    title: Verifiable Completion
+    kind: principle
+    path: principles/verifiable-completion.md
+  - id: completed-noticing
+    title: Completed Noticing
+    kind: composition
+    path: compositions/completed-noticing.md
+  - id: dosed-compliance
+    title: Dosed Compliance
+    kind: composition
+    path: compositions/dosed-compliance.md
+
+topology:
+  center:
+    id: topology:center
+    title: the spiral
+  movements:
+    - id: i-ground
+      label: I - Ground
+      question: What is true, and who owns what?
+      principles:
+        - grounding
+        - traceability
+        - sovereignty
+        - sequence
+    - id: ii-shape
+      label: II - Shape
+      question: Is the answer earned, single, stated as itself, and durable?
+      principles:
+        - parsimony
+        - single-home
+        - positive-form
+        - evolvability
+    - id: iii-protect
+      label: III - Protect
+      question: Does the system tell the truth and repair itself?
+      principles:
+        - honest-signal
+        - source-repair
+        - obligation-to-dissent
+        - recursive-improvement
+    - id: iv-land
+      label: IV - Land
+      question: Can the recipient act, and is completion a fact?
+      principles:
+        - transmission
+        - verifiable-completion
+
+relations:
+  - source: evolvability
+    type: dual
+    label: dual
+    targets:
+      - recursive-improvement
+  - source: evolvability
+    type: composition
+    label: composition
+    targets:
+      - dosed-compliance
+  - source: evolvability
+    type: dual
+    label: dual (tension)
+    annotation: tension
+    targets:
+      - parsimony
+  - source: grounding
+    type: dual
+    label: dual
+    targets:
+      - traceability
+  - source: grounding
+    type: composition
+    label: composition
+    name: Everything Earns Its Place
+    targets:
+      - parsimony
+  - source: grounding
+    type: composition
+    label: composition
+    targets:
+      - completed-noticing
+  - source: grounding
+    type: composition
+    label: composition
+    targets:
+      - dosed-compliance
+  - source: grounding
+    type: enables
+    label: enables
+    targets:
+      - sequence
+  - source: grounding
+    type: isomorphism
+    label: isomorphism
+    targets:
+      - single-home
+  - source: grounding
+    type: kin
+    label: kin
+    targets:
+      - transmission
+  - source: honest-signal
+    type: kin
+    label: kin
+    targets:
+      - verifiable-completion
+  - source: honest-signal
+    type: composition
+    label: composition
+    name: Repair at the Emitter
+    targets:
+      - honest-signal
+      - source-repair
+  - source: obligation-to-dissent
+    type: composition
+    label: composition
+    name: Act at the Source
+    targets:
+      - obligation-to-dissent
+      - source-repair
+  - source: obligation-to-dissent
+    type: enables
+    label: enables
+    targets:
+      - recursive-improvement
+  - source: obligation-to-dissent
+    type: composition
+    label: composition
+    targets:
+      - completed-noticing
+  - source: parsimony
+    type: composition
+    label: composition
+    name: Everything Earns Its Place
+    targets:
+      - grounding
+  - source: parsimony
+    type: dual
+    label: dual (tension)
+    annotation: tension
+    targets:
+      - evolvability
+  - source: parsimony
+    type: composition
+    label: composition
+    targets:
+      - dosed-compliance
+  - source: parsimony
+    type: kin
+    label: kin
+    targets:
+      - single-home
+  - source: parsimony
+    type: kin
+    label: kin
+    targets:
+      - positive-form
+  - source: positive-form
+    type: kin
+    label: kin
+    targets:
+      - parsimony
+  - source: positive-form
+    type: kin
+    label: kin
+    targets:
+      - sovereignty
+  - source: positive-form
+    type: composition
+    label: composition
+    name: History Lives in Version Control
+    targets:
+      - single-home
+  - source: recursive-improvement
+    type: dual
+    label: dual
+    targets:
+      - evolvability
+  - source: recursive-improvement
+    type: enables
+    label: enabled-by
+    targets:
+      - single-home
+  - source: recursive-improvement
+    type: enables
+    label: enabled-by
+    targets:
+      - obligation-to-dissent
+  - source: recursive-improvement
+    type: enables
+    label: enabled-by
+    targets:
+      - source-repair
+  - source: recursive-improvement
+    type: composition
+    label: composition
+    targets:
+      - completed-noticing
+  - source: sequence
+    type: enables
+    label: enables
+    targets:
+      - verifiable-completion
+  - source: sequence
+    type: enables
+    label: enabled-by
+    targets:
+      - grounding
+  - source: sequence
+    type: composition
+    label: composition
+    name: Contract-First
+    targets:
+      - sovereignty
+      - sequence
+      - single-home
+  - source: sequence
+    type: composition
+    label: composition
+    targets:
+      - completed-noticing
+  - source: single-home
+    type: composition
+    label: composition
+    name: History Lives in Version Control
+    targets:
+      - positive-form
+  - source: single-home
+    type: enables
+    label: enables
+    targets:
+      - recursive-improvement
+  - source: single-home
+    type: enables
+    label: enables
+    targets:
+      - verifiable-completion
+  - source: single-home
+    type: isomorphism
+    label: isomorphism
+    targets:
+      - grounding
+  - source: single-home
+    type: composition
+    label: composition
+    name: Contract-First
+    targets:
+      - sovereignty
+      - sequence
+      - single-home
+  - source: single-home
+    type: kin
+    label: kin
+    targets:
+      - parsimony
+  - source: source-repair
+    type: composition
+    label: composition
+    name: Act at the Source
+    targets:
+      - obligation-to-dissent
+      - source-repair
+  - source: source-repair
+    type: composition
+    label: composition
+    name: Repair at the Emitter
+    targets:
+      - honest-signal
+      - source-repair
+  - source: source-repair
+    type: enables
+    label: enables
+    targets:
+      - recursive-improvement
+  - source: sovereignty
+    type: enables
+    label: enables
+    targets:
+      - transmission
+  - source: sovereignty
+    type: composition
+    label: composition
+    name: Safe Delegation
+    targets:
+      - sovereignty
+      - verifiable-completion
+  - source: sovereignty
+    type: composition
+    label: composition
+    name: Contract-First
+    targets:
+      - sovereignty
+      - sequence
+      - single-home
+  - source: sovereignty
+    type: kin
+    label: kin
+    targets:
+      - positive-form
+  - source: traceability
+    type: dual
+    label: dual
+    targets:
+      - grounding
+  - source: traceability
+    type: kin
+    label: kin
+    targets:
+      - verifiable-completion
+  - source: transmission
+    type: kin
+    label: kin
+    targets:
+      - grounding
+  - source: transmission
+    type: enables
+    label: enabled-by
+    targets:
+      - sovereignty
+  - source: transmission
+    type: composition
+    label: composition
+    targets:
+      - completed-noticing
+  - source: verifiable-completion
+    type: enables
+    label: enabled-by
+    targets:
+      - single-home
+  - source: verifiable-completion
+    type: kin
+    label: kin
+    targets:
+      - honest-signal
+  - source: verifiable-completion
+    type: kin
+    label: kin
+    targets:
+      - traceability
+  - source: verifiable-completion
+    type: enables
+    label: enabled-by
+    targets:
+      - sequence
+  - source: verifiable-completion
+    type: kin
+    label: kin (boundary)
+    annotation: boundary
+    targets:
+      - dosed-compliance
+  - source: verifiable-completion
+    type: composition
+    label: composition
+    name: Safe Delegation
+    targets:
+      - sovereignty
+      - verifiable-completion
+  - source: verifiable-completion
+    type: composition
+    label: composition
+    targets:
+      - completed-noticing
+  - source: completed-noticing
+    type: composition
+    label: composition
+    name: Completed Noticing
+    targets:
+      - grounding
+      - verifiable-completion
+      - obligation-to-dissent
+      - transmission
+      - recursive-improvement
+      - sequence
+  - source: completed-noticing
+    type: kin
+    label: kin
+    targets:
+      - topology:center
+  - source: dosed-compliance
+    type: composition
+    label: composed-of
+    targets:
+      - grounding
+      - parsimony
+      - evolvability
+  - source: dosed-compliance
+    type: kin
+    label: kin (boundary)
+    annotation: boundary
+    targets:
+      - verifiable-completion
