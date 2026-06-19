@@ -73,7 +73,7 @@ to the record.
 [`_shared/methodology/document-register.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/methodology/document-register.md)
 (the restate-forwards move).*
 
-### Positive acceptance criteria *(issue craft)*
+### Positive acceptance criteria *(work-unit craft)*
 
 Acceptance criteria state what must be true, never what must not
 exist. A negative criterion produces tests for the absence of
@@ -82,10 +82,11 @@ a positive criterion that genuinely bounds the outcome already implies
 the absence. The same discipline governs the body around the criteria:
 an issue carries the decision, not the reasoning journey that produced
 it.
-— *Source: issue-craft (with-claude
-[`_shared/methodology/issue-craft.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/methodology/issue-craft.md)
-and the groundwork skill), the* negative-criteria *and*
-governance-narrative *corruption modes.*
+— *Source: tesserine/groundwork
+[`skills/work-unit-craft/SKILL.md`](https://github.com/tesserine/groundwork/blob/main/skills/work-unit-craft/SKILL.md),
+the canonical craft home, the* negative-criteria *and*
+governance-narrative *corruption modes. with-claude consumes this core through
+its local station layer.*
 
 ### Assert the corrected boundary *(contract tests)*
 
@@ -119,6 +120,6 @@ verifies nothing, because the absence of the old claim is not a claim.
 
 - `tesserine/commons` [ADR-0002](https://github.com/tesserine/commons/blob/main/adr/0002-everything-earns-its-place.md) (the present-system/test fragment; the ADR's entry and removal disciplines live in [Grounding](grounding.md) and [Parsimony](parsimony.md))
 - `pentaxis93/with-claude` [`_shared/methodology/document-register.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/methodology/document-register.md) (restate forwards)
-- `pentaxis93/with-claude` [`_shared/methodology/issue-craft.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/methodology/issue-craft.md) / `tesserine/groundwork` issue-craft skill (*negative-criteria*, *governance-narrative*)
+- `tesserine/groundwork` [`skills/work-unit-craft/SKILL.md`](https://github.com/tesserine/groundwork/blob/main/skills/work-unit-craft/SKILL.md) (*negative-criteria*, *governance-narrative*), consumed by with-claude's local issue-craft station layer
 - `pentaxis93/with-claude` [#103](https://github.com/pentaxis93/with-claude/issues/103), [#104](https://github.com/pentaxis93/with-claude/issues/104) (the negative-exception-framing audit: carve-outs stated as exceptions, restated as positive firing conditions)
 - `pentaxis93/babbie-ops` [#54](https://github.com/pentaxis93/babbie-ops/issues/54) (positively asserting a corrected boundary in a contract test)
