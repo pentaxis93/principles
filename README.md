@@ -34,6 +34,16 @@ form contract: [ONTOLOGY.md#topology](ONTOLOGY.md#topology).
 The typed relation system lives in the form contract:
 [ONTOLOGY.md#relationship-taxonomy](ONTOLOGY.md#relationship-taxonomy).
 
+## The wider ontology
+
+This corpus is the most universal band of a larger shared-knowledge body. Where
+it sits in that body — the full stature gradient (universal principle →
+architectural golden rule → convention → decision → concrete asset), the
+inheritance chain across the repositories, and how the two compose — is stated in
+[`pentaxis93/commons`'s `ONTOLOGY.md`](https://github.com/pentaxis93/commons/blob/main/ONTOLOGY.md).
+That document owns the cross-stratum structure; this one
+([ONTOLOGY.md](ONTOLOGY.md)) owns the corpus's internal structure.
+
 ## How to traverse
 
 - **From a universal to its practice:** open the principle document and
