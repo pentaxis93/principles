@@ -145,8 +145,44 @@ post-synthesis ascent sections with the same vocabulary.
 
 ## Topology
 
-The principles compose as four movements with a center. The movements
-move in order: each produces the ground the next requires.
+### The governing fact
+
+The topology is not an arrangement chosen for its order; it is the shape
+of one fact about the situation of agency. A whole whose correctness is a
+coherence property — its parts mutually consistent, jointly complete,
+non-redundant — is derived from the single governing fact it exists to
+serve, not assembled from parts (the discipline the corpus carries as a
+candidate; applied here to the corpus itself). The corpus is such a
+whole, so its own governing fact is named, and the movements follow from
+it.
+
+> **The governing fact.** An agent's work must be true to a reality it
+> does not control and cannot fully see, and must remain true and usable
+> after the agent itself is gone.
+
+The fact has four faces, and each movement is the phase that answers
+exactly one of them — which is why there are four, in this order, and why
+the absence of any one deforms the rest in the named way below:
+
+- The agent's **model is not the territory** → **I — Ground** establishes
+  what is true and who owns what.
+- The agent and its successors are **finite** → **II — Shape** makes the
+  answer earned, single, self-describing, and revisable, within what a
+  finite carrier can hold.
+- The agent is **fallible** and reality is **partly unseen** → **III —
+  Protect** makes the system tell the truth about itself and repair its
+  own divergences.
+- The agent is **impermanent and one of many** → **IV — Land** makes
+  completion the recipient's action, a verifiable fact, and the system
+  left coherent.
+
+The four movements are the necessary phases of meeting the governing
+fact; the members within each are the necessary answers to that
+movement's face. The topology's order — each stage producing the ground
+the next requires — is a consequence of the fact, not a convention
+adopted from the source material: the model must be established before it
+can be shaped, shaped before its integrity can be protected, protected
+before it can be soundly landed.
 
 | Movement | Question it answers | Principles |
 |---|---|---|
@@ -155,9 +191,15 @@ move in order: each produces the ground the next requires.
 | **III - Protect** | Does the system tell the truth and repair itself? | [Honest Signal](principles/honest-signal.md) · [Source Repair](principles/source-repair.md) · [Obligation to Dissent](principles/obligation-to-dissent.md) · [Recursive Improvement](principles/recursive-improvement.md) |
 | **IV - Land** | Can the recipient act, and is completion a fact? | [Transmission](principles/transmission.md) · [Verifiable Completion](principles/verifiable-completion.md) |
 
-The center is the spiral: refinement plus propulsion. Work grounds, takes
-shape, is protected, lands, and the friction of landing feeds the next
-turn. Remove a movement and the rest deform in a named way:
+The center is the spiral: refinement plus propulsion. Its content is the
+recurrence the governing fact forces. A finite agent against an unbounded,
+moving world never solves the situation once; and the agent's own landed
+work remakes the reality it must ground against next. So no landing is
+final — the ground reopens with every landing, and the four movements are
+traversed again. The center is that forced recurrence: what makes the four
+a cycle rather than a pipeline. Work grounds, takes shape, is protected,
+lands, and the friction of landing feeds the next turn. Remove a movement
+and the rest deform in a named way:
 
 - *No Ground:* elegant fiction - sovereignty confusion, inherited
   framing, untraceable chains, arbitrary order. The system cannot see.
@@ -168,8 +210,9 @@ turn. Remove a movement and the rest deform in a named way:
 - *No Land:* waste - work that never ships, or ships as assertion instead
   of fact. The system produces but does not deliver.
 
-This topology adopts the four-movement form from the source material
-because it carries meaning in its order. It retains what the compass
+This four-movement form is derived above from the governing fact; that
+the source material independently arrived at the same four-movement shape
+is corroboration, not the ground. The topology retains what the compass
 topology carried better: the named-failure diagnostic and the explicit
 center.
 
