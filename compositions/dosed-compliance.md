@@ -88,9 +88,7 @@ Each missing constituent corrupts the discipline in a named way:
   [Parsimony](../principles/parsimony.md) ·
   [Evolvability](../principles/evolvability.md). Each constituent
   carries the reciprocal **composition** edge. Evolvability's *scale
-  honesty* corollary was the corpus's first instance of the
-  maximized-gate shape this composition corrects; it now states the
-  dosed frontier
+  honesty* corollary states the dosed frontier
   ([#7](https://github.com/pentaxis93/principles/issues/7)).
 - **kin** —
   [Verifiable Completion](../principles/verifiable-completion.md): the

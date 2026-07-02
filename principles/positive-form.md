@@ -7,7 +7,15 @@
 
 ## The universal
 
-Two familiar defects are one disease.
+The positive declarative present is the only *substrate-relative*
+encoding — the reader checks the claim against the thing itself, with
+nothing else in hand. It is also the only generative one: a positive
+statement bounds a finite, checkable extension and decides cases not
+yet seen; a negation bounds an infinite complement and recognizes only
+the one failure it names.
+
+Two familiar defects are one disease — the *author-relative* encoding,
+which describes the author's journey to the present, not the present.
 
 **Negative encoding** — "the system does not do Y" — carries no
 information about the system; it fossilizes a past expectation. The
@@ -17,14 +25,6 @@ a temporal trace in disguise.
 **Temporal traces** — "originally X; we then moved to Z" — force the
 reader to replay history to derive the present state, and the claim is
 verifiable only against a substrate that no longer exists.
-
-Both are *author-relative* encodings: they describe the author's
-journey to the present, not the present. The positive declarative
-present is the only *substrate-relative* encoding — the reader checks
-the claim against the thing itself, with nothing else in hand. It is
-also the only generative one: a positive statement bounds a finite,
-checkable extension and decides cases not yet seen; a negation bounds
-an infinite complement and recognizes only the one failure it names.
 
 The principle governs durable registers — documents, criteria,
 contracts, principle text — wherever a claim must keep telling the
