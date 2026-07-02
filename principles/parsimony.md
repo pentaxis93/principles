@@ -17,18 +17,13 @@ regardless of how well it functions.
 The same invariant selects among rival accounts: when two explanations
 or designs meet the same verified constraints, the one with fewer moving
 parts is correct until a constraint demands more — the extra mechanism
-is unearned weight in a theory exactly as in a built thing. This razor
-is not [Single Home](single-home.md)'s *one mechanism, not two*, which
-unifies two loci that must agree; here nothing must agree — the second
-mechanism is simply undemanded.
+is unearned weight in a theory exactly as in a built thing.
 
 The familiar engineering maxims are faces of this invariant: YAGNI
 (speculative elements are unearned), sufficiency (enough over more), and
 elegance (the shape compressed to what the need demands; its derivation
 face — form arising from the problem itself — is
-[Grounding](grounding.md)'s *form follows the problem* projection). DRY
-is kin but deeper — duplication violates
-[Single Home](single-home.md), which owns that argument.
+[Grounding](grounding.md)'s *form follows the problem* projection).
 
 **Recognition:** The solution contains a defensive abstraction, a
 compatibility layer, repeated policy, a speculative parameter, or an
@@ -71,9 +66,9 @@ machinery to manage it — the mechanism was never earned.
   [Dosed Compliance](../compositions/dosed-compliance.md): parsimony
   supplies the dose — an extreme or costly lever earns its place by a
   verified constraint or is not built.
-- **kin** — [Single Home](single-home.md): a duplicate is a special case
-  of an unearned element, but duplication's deeper cost (divergence and
-  the dissolved evolution boundary) is Single Home's argument.
+- **kin** — [Single Home](single-home.md): border derived once at the
+  master demand's Movement II differentiation
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **kin** — [Positive Form](positive-form.md): a negative encoding or
   temporal trace is also unearned weight in a document, but the deeper
   defect — author-relativity, the claim that decays with its author's
@@ -88,4 +83,4 @@ machinery to manage it — the mechanism was never earned.
 - `pentaxis93/with-claude` [`_shared/principles.md`](https://github.com/pentaxis93/with-claude/blob/main/_shared/principles.md) §5 (Parsimony)
 - `tesserine/commons` [ADR-0002](https://github.com/tesserine/commons/blob/main/adr/0002-everything-earns-its-place.md) (principle-shaped; ascended here)
 - `tesserine/commons` [`DESIGN-PRINCIPLES.md`](https://github.com/tesserine/commons/blob/main/DESIGN-PRINCIPLES.md) §5
-- `tesserine/groundwork` [`skills/reckon/SKILL.md`](https://github.com/tesserine/groundwork/blob/main/skills/reckon/SKILL.md) §Navigational Principles 1 (Parsimony — the razor; its "one mechanism" wording is a homonym of [Single Home](single-home.md)'s projection, disambiguated in both documents), 3 (Sufficiency — a sibling statement of the disciplined-completeness clause), and 2 (Elegance, clause-level: the nothing-imposed compression face)
+- `tesserine/groundwork` [`skills/reckon/SKILL.md`](https://github.com/tesserine/groundwork/blob/main/skills/reckon/SKILL.md) §Navigational Principles 1 (Parsimony — the razor; its "one mechanism" wording is a homonym of [Single Home](single-home.md)'s projection — border derived once in the [derived-relations register](../ONTOLOGY.md#the-derived-relations-register)), 3 (Sufficiency — a sibling statement of the disciplined-completeness clause), and 2 (Elegance, clause-level: the nothing-imposed compression face)

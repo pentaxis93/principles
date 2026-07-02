@@ -55,8 +55,8 @@ surfaces that disagreement is allowed.
 ## Relations
 
 - **kin** — [Grounding](grounding.md)'s *recipient is ground truth*
-  projection: grounding names whose reality decides; transmission makes
-  the artifact land in that reality.
+  projection: border derived once at A1, crossing direction
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **enabled-by** — [Sovereignty](sovereignty.md): a clean WHAT is the
   transmissible form of intent — the recipient owns their HOW.
 - **composition** —

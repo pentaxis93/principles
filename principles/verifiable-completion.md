@@ -54,11 +54,12 @@ paid once; the cost of acting on stale assumptions is paid every call.
   model* corollary: consulting the governing authority is the soundness
   condition for a gate; a gate that models its authority instead of
   consulting it can pass what the authority rejects.
-- **kin** — [Honest Signal](honest-signal.md): surfaces must not lie;
-  claims must not outrun evidence. Same demand, two sites.
-- **kin** — [Traceability](traceability.md): evidence decides the claim;
-  the chain decides the conclusion. Nothing asserted beyond what can be
-  audited, at two sites — completion claims and reasoning.
+- **kin** — [Honest Signal](honest-signal.md): border derived once at
+  A4, site of assertion
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
+- **kin** — [Traceability](traceability.md): border derived once at A4,
+  site of assertion
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **enabled-by** — [Sequence](sequence.md): verification-before-claim is
   sequence applied to the final boundary of a unit of work.
 - **kin (boundary)** —
