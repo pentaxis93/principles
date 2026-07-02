@@ -59,8 +59,8 @@ def test_schema_rejects_annotation_on_wrong_host_type(tmp_path: Path) -> None:
     corpus = copy_corpus(tmp_path)
     replace_text(
         corpus / "ontology.yaml",
-        "  - source: verifiable-completion\n    type: kin\n    label: kin (boundary)\n    annotation: boundary\n    targets:\n      - dosed-compliance\n",
-        "  - source: verifiable-completion\n    type: kin\n    label: kin (boundary)\n    annotation: tension\n    targets:\n      - dosed-compliance\n",
+        "  - source: honest-signal\n    type: kin\n    label: kin\n    targets:\n      - verifiable-completion\n",
+        "  - source: honest-signal\n    type: kin\n    label: kin\n    annotation: tension\n    targets:\n      - verifiable-completion\n",
     )
     assert_validator_fails_with(corpus, "schema validation failed")
 

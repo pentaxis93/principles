@@ -92,7 +92,7 @@ Each missing constituent corrupts the discipline in a named way:
   maximized-gate shape this composition corrects; it now states the
   dosed frontier
   ([#7](https://github.com/pentaxis93/principles/issues/7)).
-- **kin (boundary)** —
+- **kin** —
   [Verifiable Completion](../principles/verifiable-completion.md): the
   dose decides whether a gate is built; Verifiable Completion governs
   what any claim of completion must do regardless. Its evidence demand
