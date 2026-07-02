@@ -35,7 +35,7 @@ and ascended after the founding synthesis are classified in their own
 | 5. Recursive Improvement | ascended | [Recursive Improvement](principles/recursive-improvement.md) |
 | 6. Transmission | ascended | [Transmission](principles/transmission.md) |
 | 7. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
-| Compass topology (N/E/S/W + center) | ascended | The four-movement topology supersedes the compass arrangement ([form contract](ONTOLOGY.md#topology) states why); the compass's named-failure diagnostic and its center claim (the spiral) are retained in the topology section |
+| Compass topology (N/E/S/W + center) | ascended | The four-movement topology supersedes the compass arrangement ([form contract](ONTOLOGY.md#derivation) states why); the compass's named-failure diagnostic and its center claim (the spiral) are retained in the topology section |
 
 ## Register 2 — `tesserine/commons/DESIGN-PRINCIPLES.md` (21 design principles)
 
@@ -104,7 +104,7 @@ that *applies* a principle. Consult the Decision's shape, not the label.
 | 11. Transmission | ascended | [Transmission](principles/transmission.md) |
 | 12. Verifiable Completion | ascended | [Verifiable Completion](principles/verifiable-completion.md) |
 | 13. Consult, Don't Reimplement | projection | [Single Home](principles/single-home.md) (corollary *consult, don't model*), carrying its soundness-condition edge to [Verifiable Completion](principles/verifiable-completion.md) |
-| Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([form contract](ONTOLOGY.md#topology) states why), extended with the compass's failure diagnostics |
+| Four-movement topology (Ground/Shape/Protect/Land) | ascended | Adopted as the corpus topology ([form contract](ONTOLOGY.md#derivation) states why), extended with the compass's failure diagnostics |
 | Feedback-loop footer (`asset:principles` route) | ascended | Relocated: future corpus friction is filed against this repository ([README](README.md#evolving-this-corpus)) |
 
 ## Register 5 — `tesserine/groundwork` `skills/reckon/SKILL.md` §Navigational Principles (5 principles + preamble)

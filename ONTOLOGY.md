@@ -85,12 +85,12 @@ reciprocal `composition` edge back.
 
 Composition names are Title Case noun phrases. The rendering form is
 `<Name> : <this document's face>`, with the name linked iff a
-`compositions/` document exists. A composition previously written as
-"yields *maxim*" adopts the maxim as its Title Case name: **Everything
+`compositions/` document exists. A composition whose discipline yields
+a maxim carries the maxim as its Title Case name: **Everything
 Earns Its Place** for Grounding ∘ Parsimony, and **History Lives in
 Version Control** for Positive Form ∘ Single Home.
 
-Three previously unnamed compositions are named here:
+Three further two-constituent compositions carry names:
 
 - **Safe Delegation**: Sovereignty ∘ Verifiable Completion.
 - **Repair at the Emitter**: Honest Signal ∘ Source Repair.
@@ -160,10 +160,10 @@ turn. Remove a movement and the rest deform in a named way:
 - *No Land:* waste - work that never ships, or ships as assertion instead
   of fact. The system produces but does not deliver.
 
-This topology adopts the four-movement form from the source material
-because it carries meaning in its order. It retains what the compass
-topology carried better: the named-failure diagnostic and the explicit
-center.
+The four-movement form is derived from the governing fact in
+[§Derivation](#derivation) and validated against the source registers
+by derive-then-diff; the named-failure diagnostic and the explicit
+center are part of the form.
 
 The named compositions are read against the movements that supply their
 constituents rather than placed inside them. Among them,
@@ -303,8 +303,8 @@ that never ships, or ships as assertion instead of fact"). Each
 named failure matches its leg's removal 1:1 (§Topology, diagnostic
 list).
 
-**The adopted form, validated.** §Topology adopts the four-movement
-form from the source registers (`SOURCES.md` §Register 4). This
+**The adopted form, validated.** The four-movement form is adopted
+from the source registers (`SOURCES.md` §Register 4). This
 derivation re-derives the form from the fact, and the same four
 movements in the same order emerge — the import is validated exactly
 per Grounding's corrective: "if the same answer emerges, the import is

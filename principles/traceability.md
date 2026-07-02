@@ -30,8 +30,9 @@ because the chain was honest, but validity is not completeness. The
 chain is finished when the conclusion has been checked against every
 behavior it touches.
 
-**Recognition:** A conclusion "feels right" or "follows naturally," but
-the chain that produced it cannot be articulated. Or the chain is stated
+**Recognition:** A conclusion "feels right" or "follows naturally," and
+the chain that produced it lives only as that feeling — nowhere shown.
+Or the chain is stated
 and a link invokes analogy, precedent, or familiarity rather than ground
 or principle. Or the chain closed after the consequence that prompted
 the inquiry, without asking what else the conclusion touches.

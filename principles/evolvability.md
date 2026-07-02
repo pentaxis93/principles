@@ -110,9 +110,7 @@ ascended here.*
   [Dosed Compliance](../compositions/dosed-compliance.md): evolvability
   supplies the floor — the dose rises to the worthwhile frontier
   because under-built conventions erode at scale and the debt flows
-  forward. The *scale honesty* corollary was the corpus's first
-  instance of the maximized-gate shape; it now states the dosed
-  frontier.
+  forward. The *scale honesty* corollary states the dosed frontier.
 - **dual (tension)** — [Parsimony](parsimony.md): parsimony forbids
   speculative weight; evolvability forbids forward debt. Together they
   define "enough": every real constraint met, including the constraint

@@ -25,7 +25,7 @@ capabilities that do not exist.
 **Recognition:** Code silently accepts a condition the design considers
 unsupported. A layer exists only because an adjacent system has one. A
 fallback masks an error. A surface reports an identity (a version, a
-capability, a status) that does not match its substance.
+capability, a status) at odds with its substance.
 
 **Corrective:** Fix the surface that emits the false signal — make the
 unsupported explicit, rename to the real shape, fail loudly at the point
