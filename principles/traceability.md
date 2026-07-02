@@ -46,14 +46,10 @@ chain, enumerate the consequence surface and trace the paths it adds.
 - **dual** — [Grounding](grounding.md): position and momentum, the
   static and dynamic faces of one act. Grounding establishes where
   reasoning starts; Traceability keeps every subsequent inference
-  anchored there. The pair parallels
-  [Evolvability](evolvability.md) ↔
-  [Recursive Improvement](recursive-improvement.md): one invariant seen
-  from two aspects.
-- **kin** — [Verifiable Completion](verifiable-completion.md): evidence
-  decides the claim; the chain decides the conclusion. The same demand —
-  nothing asserted beyond what can be audited — at two sites, completion
-  claims and reasoning.
+  anchored there.
+- **kin** — [Verifiable Completion](verifiable-completion.md): border
+  derived once at A4, site of assertion
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 
 ## Sources
 

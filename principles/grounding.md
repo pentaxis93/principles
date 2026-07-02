@@ -135,15 +135,15 @@ the count is the win-surface, held out of the diagnosis.*
 - **enables** — [Sequence](sequence.md): grounding supplies the input
   sequence requires at the design boundary; inherited framing is the
   failure mode there.
-- **isomorphism** — [Single Home](single-home.md)'s *consult, don't
-  model* corollary and Grounding's *read the manual* projection are the
-  same move in two domains: enforcement consults its authority;
-  cognition consults its substrate.
-- **kin** — [Transmission](transmission.md): grounding names whose
-  reality decides; transmission makes the artifact land in that reality.
-- **kin** — [Contract-First](../compositions/contract-first.md): a
-  contract in the substrate is reality, not residue — a consumer grounds
-  in it as territory.
+- **isomorphism** — [Single Home](single-home.md): *read the manual* ↔
+  *consult, don't model* — border derived once at A4
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
+- **kin** — [Transmission](transmission.md): border derived once at A1,
+  crossing direction
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
+- **kin** — [Contract-First](../compositions/contract-first.md): border
+  derived once from the fact — the loop-closure edge
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 
 ## Sources
 

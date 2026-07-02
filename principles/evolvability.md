@@ -103,11 +103,9 @@ ascended here.*
 
 ## Relations
 
-- **dual** — [Recursive Improvement](recursive-improvement.md): the same
-  loop seen from its two sides. Recursive Improvement is the runtime
-  loop that improves an asset through the friction of use; Evolvability
-  is the design-time structure that lets the loop run without fighting
-  the asset.
+- **dual** — [Recursive Improvement](recursive-improvement.md): border
+  derived once at A2, standing ↔ moving
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **composition** —
   [Dosed Compliance](../compositions/dosed-compliance.md): evolvability
   supplies the floor — the dose rises to the worthwhile frontier

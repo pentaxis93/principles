@@ -51,9 +51,9 @@ both levels.
 
 ## Relations
 
-- **dual** — [Evolvability](evolvability.md): the runtime loop and its
-  design-time structure. Evolvability builds the seams; Recursive
-  Improvement is the force that uses them.
+- **dual** — [Evolvability](evolvability.md): border derived once at
+  A2, standing ↔ moving
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **enabled-by** — [Single Home](single-home.md): the spiral acts on a
   bounded asset; a thing without a single home cannot accumulate
   friction in one place and so cannot evolve as a unit.

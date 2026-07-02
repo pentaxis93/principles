@@ -87,7 +87,7 @@ Each missing constituent corrupts the discipline in a named way:
 ## Relations
 
 - **composed-of** — [Sovereignty](../principles/sovereignty.md) · [Single Home](../principles/single-home.md) · [Verifiable Completion](../principles/verifiable-completion.md) · [Sequence](../principles/sequence.md). Each constituent carries the reciprocal **composition** edge.
-- **kin** — [Grounding](../principles/grounding.md): a contract in the substrate is reality, not residue — a consumer grounds in it as territory rather than replaying how it came to be.
+- **kin** — [Grounding](../principles/grounding.md): border derived once from the fact — the loop-closure edge ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **kin** — [Honest Signal](../principles/honest-signal.md): the contract is a surface that tells the truth about the seam; a declaration that diverges from what each side does is a lying surface.
 - **kin** — [Parsimony](../principles/parsimony.md): only the WHAT that must cross the boundary is declared — the surface carries nothing the seam does not demand.
 

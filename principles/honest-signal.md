@@ -85,9 +85,9 @@ concrete release surface.*
 
 ## Relations
 
-- **kin** — [Verifiable Completion](verifiable-completion.md): the same
-  truth-telling demand at two sites. Honest Signal governs what surfaces
-  *say*; Verifiable Completion governs what claims may be *made*.
+- **kin** — [Verifiable Completion](verifiable-completion.md): border
+  derived once at A4, site of assertion
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **composition** — Repair at the Emitter :
   [Honest Signal](honest-signal.md) ∘ [Source Repair](source-repair.md);
   the false signal is repaired at the artifact that emits it, not

@@ -218,10 +218,10 @@ against a larger future surface and more future hands"
 holds only what the work carries, then every warrant — for a claim, an
 element, a boundary, an order, a completion — must be carried by the
 work's substrate, checkably, or it does not exist for the receiver.
-Nothing sound may rest on what only the maker holds. The corpus states
-the demand locally: the Traceability ↔ Verifiable Completion kin gloss
-carries it verbatim — "nothing asserted beyond what can be audited"
-(`principles/traceability.md` §Relations).
+Nothing sound may rest on what only the maker holds. The demand's
+canonical phrase — "nothing asserted beyond what can be audited" — is
+carried at the Traceability ↔ Verifiable Completion row of the
+derived-relations register below.
 
 ### The four axes
 
@@ -244,12 +244,8 @@ has a standing face — what the substrate holds — and a moving face —
 the act that produces or uses it. The receiver meets only the standing
 face, but soundness is made in motion, so both faces carry the demand.
 *Roots:* `principles/traceability.md` §The universal ("Reasoning has a
-static face and a dynamic face") and §Relations ("The pair parallels
-Evolvability ↔ Recursive Improvement: one invariant seen from two
-aspects"); `principles/grounding.md` §Relations ("position and
-momentum… Two faces of one act");
-`principles/recursive-improvement.md` §Relations ("the same loop seen
-from its two sides").
+static face and a dynamic face"); `principles/grounding.md` §Relations
+("position and momentum… Two faces of one act").
 
 **A3 · Present ↔ forward (whose cost).** The work's weight is paid
 twice: by the present, which carries every element now, and by the
@@ -264,12 +260,13 @@ does not flow forward") and §The universal ("more future hands").
 is asserted: a surface asserts an identity or capability; a completion
 claim asserts done-ness; an inference chain asserts a conclusion; a
 consultation asserts the authority's content. One demand × N sites.
-*Roots:* `principles/honest-signal.md` §Relations ("the same
-truth-telling demand at two sites");
-`principles/verifiable-completion.md` §Relations ("nothing asserted
-beyond what can be audited, at two sites");
-`principles/single-home.md` §Relations ("the same move in two
-domains").
+*Roots:* `principles/honest-signal.md` invariant (a surface asserts
+what it is, does, and supports);
+`principles/verifiable-completion.md` §The universal ("Verification
+precedes the completion claim"); `principles/traceability.md` invariant
+(a conclusion's chain, "explicit and auditable");
+`principles/single-home.md` §Corollaries ("a model of the authority is
+not the authority" — the consultation site).
 
 ### The topology as consequence
 
@@ -325,20 +322,22 @@ is the validation move of record.
 ### The derived-relations register
 
 The register documents the corpus's live derived edges at this head:
-each edge derived once, at its axis — or, for the loop-closure row,
-from the fact directly. Cluster dispositions move member documents and
-this register together.
+each edge derived once, at the derivation its row names — an axis, the
+fact directly (the loop-closure row), or the master demand's
+Movement II differentiation (the economy-pair row). Cluster
+dispositions move member documents and this register together.
 
 | Edge | Axis | Chain | Citations |
 |---|---|---|---|
 | **dual** — Grounding ↔ Traceability | A2 | The ground-truth demand's two faces: standing = position established, what is true and needed, fixed before reasoning departs; moving = every subsequent inference keeps its anchor to that position. The edge prose states the axis itself. | `principles/grounding.md` §Relations ("position and momentum… Two faces of one act"); `principles/traceability.md` §The universal, §Relations |
-| **dual** — Evolvability ↔ Recursive Improvement | A2 | The cheap-next-change demand's two faces: standing = the seams built into the artifact (design-time); moving = the loop that uses them (runtime). The corpus itself declares the two duals parallel — one axis, two instances. | `principles/evolvability.md` §Relations; `principles/recursive-improvement.md` §Relations; `principles/traceability.md` §Relations ("The pair parallels…") |
+| **dual** — Evolvability ↔ Recursive Improvement | A2 | The cheap-next-change demand's two faces: standing = the seams built into the artifact (design-time); moving = the loop that uses them (runtime). One axis, two instances: the pair parallels Grounding ↔ Traceability. | `principles/evolvability.md` §Relations; `principles/recursive-improvement.md` §Relations |
 | **dual (tension)** — Parsimony ↔ Evolvability | A3 | One axis — on whom the weight falls — bounded from opposite ends: weight unearned by a present verified need (Parsimony forbids) and weight transferred forward as debt (Evolvability forbids); "enough" is the bounded interior. The `tension` annotation itself is derived here: "the two aspects bound an axis from opposite sides" is generated by A3. | `principles/parsimony.md` §Relations; `principles/evolvability.md` §Relations; §Relationship taxonomy, `dual (tension)` fold |
-| **kin** — Honest Signal ↔ Verifiable Completion | A4 | The master demand at two sites: what a surface *says* answers to its substance; what a claim *asserts* answers to evidence run first. The gloss states it: "the same truth-telling demand at two sites." | `principles/honest-signal.md` §Relations; `principles/verifiable-completion.md` §Relations |
-| **kin** — Traceability ↔ Verifiable Completion | A4 | Two sites: the reasoning chain; the completion claim. The gloss carries the master demand verbatim — "nothing asserted beyond what can be audited." | `principles/traceability.md` §Relations; `principles/verifiable-completion.md` §Relations |
-| **isomorphism** — Grounding (*read the manual*) ↔ Single Home (*consult, don't model*) | A4 | Two sites: cognition's intake of an authority; enforcement's consultation of an authority — in both, assert only what the consulted authority warrants. | `principles/grounding.md` §Projections, §Relations; `principles/single-home.md` §Corollaries, §Relations |
+| **kin** — Honest Signal ↔ Verifiable Completion | A4 | The same truth-telling demand at two sites: what a surface *says* answers to its substance; what a claim *asserts* answers to evidence run first. | `principles/honest-signal.md` §Relations; `principles/verifiable-completion.md` §Relations |
+| **kin** — Traceability ↔ Verifiable Completion | A4 | Two sites — the reasoning chain; the completion claim — one demand, in its canonical phrase: nothing asserted beyond what can be audited. | `principles/traceability.md` §Relations; `principles/verifiable-completion.md` §Relations |
+| **kin** — Parsimony ↔ Single Home | the master demand (Movement II differentiation) | *Earned* and *single* are distinct properties the master demand requires of the carried warrant: an element's warrant exists — a verified present need (Parsimony) — and a shared truth's authoritative locus is unique — a copy is a synchronization promise only the maker holds (Single Home). The discriminator decides the class: must the two agree? If yes, unify — the defect is singleness; if the second is merely unearned, remove — the defect is earnedness. A duplicate is a special case of an unearned element; divergence and the dissolved evolution boundary are Single Home's deeper argument. | `principles/parsimony.md` §Relations; `principles/single-home.md` §Relations, §Projections (*one mechanism, not two*); `SOURCES.md` §Register 5 (the homonym adjudication); §The topology as consequence (Encoding leg) |
+| **isomorphism** — Grounding (*read the manual*) ↔ Single Home (*consult, don't model*) | A4 | The same move in two domains — cognition's intake of an authority; enforcement's consultation of one: in both, assert only what the consulted authority warrants. | `principles/grounding.md` §Projections, §Relations; `principles/single-home.md` §Corollaries, §Relations |
 | **kin** — Grounding ↔ Transmission | A1 | The receiving reality appears at both ends of the crossing: as the authority that decides what to make (Grounding's *recipient is ground truth*) and as the destination the artifact must land in (Transmission). One reality, intake and delivery readings; the projection already carries the cross-edge. | `principles/grounding.md` §Projections ("Edge to Transmission"), §Relations; `principles/transmission.md` §Relations |
-| **kin** — Grounding ↔ Contract-First | the fact (loop-closure) | A warrant the substrate carries checkably is, for the next party, *territory*: the delivered contract is the successor's ground. This edge is the seam where one turn's Land becomes the next turn's Ground. The gloss states it: "a contract in the substrate is reality, not residue — a consumer grounds in it as territory." | `principles/grounding.md` §Relations; `compositions/contract-first.md` §Relations |
+| **kin** — Grounding ↔ Contract-First | the fact (loop-closure) | A warrant the substrate carries checkably is, for the next party, *territory*: the delivered contract is the successor's ground. This edge is the seam where one turn's Land becomes the next turn's Ground: a contract in the substrate is reality, not residue — a consumer grounds in it as territory. | `principles/grounding.md` §Relations; `compositions/contract-first.md` §Relations |
 
 Two taxonomy consequences of the register are recorded here and
 decided elsewhere: the `tension` annotation is now derived (row 3)

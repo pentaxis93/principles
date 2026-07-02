@@ -63,11 +63,10 @@ Reimplement).*
 When two systems must agree, make them one system. If a remediation
 patches a second filter to match a first, look for the architectural fix
 that eliminates the class.
-— *Source: commons `DESIGN-PRINCIPLES.md` §2. The same words name a
-[Parsimony](parsimony.md) face when nothing must agree — groundwork
-reckon's "one mechanism over two" removes an undemanded second mechanism
-rather than unifying two loci. The discriminator: must the two agree?
-If yes, unify here; if the second is merely unearned, remove it there.*
+— *Source: commons `DESIGN-PRINCIPLES.md` §2. Its border with
+[Parsimony](parsimony.md)'s razor — the "one mechanism" homonym — is
+derived once in the
+[derived-relations register](../ONTOLOGY.md#the-derived-relations-register).*
 
 ### Computed over stored *(state)*
 
@@ -116,15 +115,15 @@ itself exists under). DRY is this projection at the scale of code.*
   consulting the governing authority is the soundness condition for a
   gate; a gate that models its authority instead of consulting it can
   pass what the authority rejects.
-- **isomorphism** — the consult-don't-model corollary and
-  [Grounding](grounding.md)'s *read the manual* projection are the same
-  move in two domains: enforcement consults its authority; cognition
-  consults its substrate.
+- **isomorphism** — [Grounding](grounding.md): *consult, don't model* ↔
+  *read the manual* — border derived once at A4
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **composition** — [Contract-First](../compositions/contract-first.md):
   the declaration is the one authoritative surface every layer consults
   or derives from, so the seam's truth keeps a single home.
-- **kin** — [Parsimony](parsimony.md): a duplicate is also an unearned
-  element, but the dissolved evolution boundary is the deeper cost.
+- **kin** — [Parsimony](parsimony.md): border derived once at the
+  master demand's Movement II differentiation
+  ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 
 ## Sources
 
