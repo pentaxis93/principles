@@ -32,7 +32,6 @@ RELATION_LABELS = {
     "enables",
     "enabled-by",
     "kin",
-    "kin (boundary)",
 }
 SYMMETRIC_TYPES = {"dual", "isomorphism", "kin"}
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
@@ -110,7 +109,14 @@ def validate_graph(root: Path, graph: dict[str, Any]) -> None:
     if type_names != EXPECTED_TYPES:
         raise ValidationFailure(f"type-set closure failed: expected {sorted(EXPECTED_TYPES)}, got {sorted(type_names)}")
 
-    fold_by_label = {item["label"]: item for item in folds}
+    # The identity rule: a label matching a declared type folds to itself.
+    # Declared folds carry the non-identity labels (and may override with a
+    # recorded reason).
+    fold_by_label = {
+        item["name"]: {"label": item["name"], "canonical_type": item["name"]}
+        for item in relation_types
+    }
+    fold_by_label.update({item["label"]: item for item in folds})
     missing_labels = RELATION_LABELS - set(fold_by_label)
     if missing_labels:
         raise ValidationFailure(f"type-set closure failed: missing fold dispositions for {sorted(missing_labels)}")
@@ -129,10 +135,10 @@ def validate_graph(root: Path, graph: dict[str, Any]) -> None:
 
     node_by_id = validate_nodes(root, nodes)
     validate_topology(root, graph["topology"], node_by_id)
-    validate_relation_endpoints(relations, node_by_id, graph["topology"])
+    validate_relation_endpoints(relations, node_by_id)
     validate_reciprocity(relations, node_by_id)
     validate_relation_coverage(root, relations, node_by_id, fold_by_label)
-    validate_tables(root, relation_types, folds, graph["topology"])
+    validate_tables(root, relation_types, folds)
     validate_orphans(relations, graph["topology"], node_by_id)
 
 
@@ -217,17 +223,12 @@ def validate_topology(root: Path, topology: dict[str, Any], node_by_id: dict[str
         if question != movement["question"] or principles != movement["principles"]:
             raise ValidationFailure(f"topology mismatch: {movement['label']}")
 
-    ontology = (root / "ONTOLOGY.md").read_text(encoding="utf-8")
-    if topology["center"]["title"] not in ontology:
-        raise ValidationFailure("topology mismatch: center is not rendered in ONTOLOGY.md")
-
 
 def validate_relation_endpoints(
     relations: list[RelationEntry],
     node_by_id: dict[str, dict[str, Any]],
-    topology: dict[str, Any],
 ) -> None:
-    allowed = set(node_by_id) | {topology["center"]["id"]}
+    allowed = set(node_by_id)
     for relation in relations:
         if relation.source not in node_by_id:
             raise ValidationFailure(f"dangling endpoint: relation source {relation.source} is not a node")
@@ -312,7 +313,6 @@ def validate_tables(
     root: Path,
     relation_types: list[dict[str, Any]],
     folds: list[dict[str, Any]],
-    topology: dict[str, Any],
 ) -> None:
     text = (root / "ONTOLOGY.md").read_text(encoding="utf-8")
     taxonomy_rows = table_after_heading(text, "Relationship taxonomy", 0)
@@ -337,9 +337,6 @@ def validate_tables(
     for fold in folds:
         if prose_folds.get(fold["label"]) != fold["disposition"]:
             raise ValidationFailure(f"prose table mismatch: fold {fold['label']}")
-
-    if topology["center"]["title"] not in text:
-        raise ValidationFailure("prose table mismatch: topology center")
 
 
 def validate_orphans(
@@ -421,9 +418,6 @@ def relation_targets(block: str, source_path: str, path_to_id: dict[str, str]) -
         normalized = posixpath.normpath(posixpath.join(posixpath.dirname(source_path), clean))
         if normalized in path_to_id:
             targets.append(path_to_id[normalized])
-        elif clean == "../ONTOLOGY.md" or normalized == "ONTOLOGY.md":
-            if "topology's center" in block or "center is the spiral" in block:
-                targets.append("topology:center")
     return targets
 
 

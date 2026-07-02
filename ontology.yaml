@@ -29,7 +29,7 @@ relation_types:
       - label: tension
         meaning: The two aspects bound an axis from opposite sides.
   - name: isomorphism
-    meaning: The same move recurring in different domains.
+    meaning: The same move recurring in different domains. Its endpoints are named moves — a projection or a corollary — not the invariants that host them.
     placement: Relations
     directionality: symmetric
     reciprocity: "reciprocal: both endpoints carry it"
@@ -41,54 +41,20 @@ relation_types:
     reciprocity: "reciprocal: target B carries `enabled-by` back to A"
     rendering: "on A: `enables` - `[B](...)`: B's precondition; on B: `enabled-by` - `[A](...)`"
   - name: kin
-    meaning: Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other.
+    meaning: Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other. Its endpoints are the invariants themselves.
     placement: Relations
     directionality: symmetric
     reciprocity: "reciprocal: both endpoints carry it"
-    rendering: "`kin` - or `kin (boundary)` - `[Other](...)`: the shared demand or family resemblance"
-    annotations:
-      - label: boundary
-        meaning: The relation marks a boundary between a dosed lever and an undosed constitutive demand.
+    rendering: "`kin` - `[Other](...)`: the shared demand or family resemblance"
 
 folds:
-  - label: projection
-    canonical_type: projection
-    disposition: declared as `projection`
-  - label: corollary
-    canonical_type: corollary
-    disposition: declared as `corollary`
-  - label: composition
-    canonical_type: composition
-    disposition: declared as `composition`
-  - label: dual
-    canonical_type: dual
-    disposition: declared as `dual`
-  - label: isomorphism
-    canonical_type: isomorphism
-    disposition: declared as `isomorphism`
-  - label: enables
-    canonical_type: enables
-    disposition: declared as `enables`
-  - label: kin
-    canonical_type: kin
-    disposition: declared as `kin`
   - label: enabled-by
     canonical_type: enables
     disposition: reciprocal rendering of `enables`
   - label: dual (tension)
     canonical_type: dual
     annotation: tension
-    disposition: sanctioned annotation on `dual` when the two aspects bound an axis from opposite sides
-  - label: kin (boundary)
-    canonical_type: kin
-    annotation: boundary
-    disposition: sanctioned annotation on `kin` when a relation marks the boundary between a dosed lever and an undosed constitutive demand
-  - label: soundness condition
-    canonical_type: enables
-    disposition: folded into `enables`; the type is the precondition class, and the edge prose carries the soundness flavor
-  - label: fed-by
-    canonical_type: enables
-    disposition: folded into `enables`; the type is the precondition class, and the edge prose carries the supply-of-input flavor
+    disposition: annotation on `dual` derived at A3 (Derivation register, Parsimony ↔ Evolvability row) — the two aspects bound an axis from opposite sides
   - label: composed-of
     canonical_type: composition
     disposition: folded into `composition` as the composition-document-side rendering of its constituents
@@ -164,9 +130,6 @@ nodes:
     path: compositions/contract-first.md
 
 topology:
-  center:
-    id: topology:center
-    title: the spiral
   movements:
     - id: i-ground
       label: I - Ground
@@ -488,8 +451,7 @@ relations:
       - sequence
   - source: verifiable-completion
     type: kin
-    label: kin (boundary)
-    annotation: boundary
+    label: kin
     targets:
       - dosed-compliance
   - source: verifiable-completion
@@ -515,11 +477,6 @@ relations:
       - transmission
       - recursive-improvement
       - sequence
-  - source: completed-noticing
-    type: kin
-    label: kin
-    targets:
-      - topology:center
   - source: dosed-compliance
     type: composition
     label: composed-of
@@ -529,8 +486,7 @@ relations:
       - evolvability
   - source: dosed-compliance
     type: kin
-    label: kin (boundary)
-    annotation: boundary
+    label: kin
     targets:
       - verifiable-completion
   - source: verifiable-completion

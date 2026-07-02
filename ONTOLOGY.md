@@ -21,26 +21,18 @@ in each document's **Relations** section.
 | **corollary** | A same-level consequence derivable from a universal. | in-document | directional: universal -> consequence | none; intra-document | stated under **Corollaries** as a named same-level consequence |
 | **composition** | Two or more universals acting together as one discipline. | Relations | symmetric among constituents | reciprocal: every constituent carries the edge | `<Name> : <this document's face>`, with the name linked iff a `compositions/` document exists |
 | **dual** | One invariant seen from two aspects. | Relations | symmetric | reciprocal: both endpoints carry it | `dual` - or `dual (tension)` - `[Other](...)`: the one invariant seen as two aspects |
-| **isomorphism** | The same move recurring in different domains. | Relations | symmetric | reciprocal: both endpoints carry it | `isomorphism` - `[Other](...)`: the shared move, named in each domain |
+| **isomorphism** | The same move recurring in different domains. Its endpoints are named moves — a projection or a corollary — not the invariants that host them. | Relations | symmetric | reciprocal: both endpoints carry it | `isomorphism` - `[Other](...)`: the shared move, named in each domain |
 | **enables** | One principle is the precondition of another's existence or sound operation. | Relations | directional: A enables B | reciprocal: target B carries `enabled-by` back to A | on A: `enables` - `[B](...)`: B's precondition; on B: `enabled-by` - `[A](...)` |
-| **kin** | Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other. | Relations | symmetric | reciprocal: both endpoints carry it | `kin` - or `kin (boundary)` - `[Other](...)`: the shared demand or family resemblance |
+| **kin** | Distinct invariants share a family resemblance, or make the same demand at two sites, without one deriving from the other. Its endpoints are the invariants themselves. | Relations | symmetric | reciprocal: both endpoints carry it | `kin` - `[Other](...)`: the shared demand or family resemblance |
 
-Every relation label in use is either declared or folded:
+Every relation label in use resolves by one rule and the declared folds
+below. The rule: **a label matching a declared type folds to itself.**
+The remaining labels fold as declared:
 
 | Label | Disposition |
 |---|---|
-| **projection** | declared as `projection` |
-| **corollary** | declared as `corollary` |
-| **composition** | declared as `composition` |
-| **dual** | declared as `dual` |
-| **isomorphism** | declared as `isomorphism` |
-| **enables** | declared as `enables` |
-| **kin** | declared as `kin` |
 | **enabled-by** | reciprocal rendering of `enables` |
-| **dual (tension)** | sanctioned annotation on `dual` when the two aspects bound an axis from opposite sides |
-| **kin (boundary)** | sanctioned annotation on `kin` when a relation marks the boundary between a dosed lever and an undosed constitutive demand |
-| **soundness condition** | folded into `enables`; the type is the precondition class, and the edge prose carries the soundness flavor |
-| **fed-by** | folded into `enables`; the type is the precondition class, and the edge prose carries the supply-of-input flavor |
+| **dual (tension)** | annotation on `dual` derived at A3 (Derivation register, Parsimony ↔ Evolvability row) — the two aspects bound an axis from opposite sides |
 | **composed-of** | folded into `composition` as the composition-document-side rendering of its constituents |
 
 The taxonomy uses the smallest set the material requires. A relation type
@@ -339,12 +331,14 @@ dispositions move member documents and this register together.
 | **kin** — Grounding ↔ Transmission | A1 | The receiving reality appears at both ends of the crossing: as the authority that decides what to make (Grounding's *recipient is ground truth*) and as the destination the artifact must land in (Transmission). One reality, intake and delivery readings; the projection already carries the cross-edge. | `principles/grounding.md` §Projections ("Edge to Transmission"), §Relations; `principles/transmission.md` §Relations |
 | **kin** — Grounding ↔ Contract-First | the fact (loop-closure) | A warrant the substrate carries checkably is, for the next party, *territory*: the delivered contract is the successor's ground. This edge is the seam where one turn's Land becomes the next turn's Ground: a contract in the substrate is reality, not residue — a consumer grounds in it as territory. | `principles/grounding.md` §Relations; `compositions/contract-first.md` §Relations |
 
-Two taxonomy consequences of the register are recorded here and
-decided elsewhere: the `tension` annotation is now derived (row 3)
-rather than sanctioned ad hoc, and A4 generates kin ("same demand, two
-sites") and isomorphism ("same move, two domains") by one mechanism —
-whether the two labels stay separately earned is a taxonomy call homed
-at the epic's C5 unit.
+Two taxonomy consequences of the register: the `tension` annotation is
+derived at A3 (row 3), and its fold disposition in §Relationship
+taxonomy cites that row as its ground; and A4 generates kin ("same
+demand, two sites") and isomorphism ("same move, two domains") by one
+mechanism — the two labels are separately earned by observable form: a
+kin edge's endpoints are the invariants themselves (rows 4–5), while
+the isomorphism's endpoints are named moves — a projection and a
+corollary (row 7) — and each taxonomy entry states its form.
 
 ### The center
 
@@ -359,11 +353,12 @@ Completed Noticing is the loop's **per-act projection**. Its
 constituent set — Grounding, Verifiable Completion, Obligation to
 Dissent, Transmission, Recursive Improvement, Sequence — spans
 Movements I, III, and IV and contains no Movement II member, so it is
-not the four-movement traversal itself; its own kin edge states the
-true relation — "the four movements traversed as one turn of this
-cycle" — the loop read at the scale of a single act
-(`compositions/completed-noticing.md` §The cycle, §Relations;
-§Topology, center text; `ontology.yaml` `topology.center`).
+not the four-movement traversal itself; its own document states the
+true relation — the per-act projection of the derived center, the loop
+read at the scale of a single act
+(`compositions/completed-noticing.md` §The cycle; §Topology, center
+text).
 
-The `topology:center` pseudo-node's mechanical disposition is homed at
-the epic's C5 unit.
+The center lives as prose alone — §Topology's center text and this
+section. The machine graph carries member nodes and their edges; the
+center, a consequence rather than a member, has no node.

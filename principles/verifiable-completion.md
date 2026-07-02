@@ -62,7 +62,7 @@ paid once; the cost of acting on stale assumptions is paid every call.
   ([derived-relations register](../ONTOLOGY.md#the-derived-relations-register)).
 - **enabled-by** — [Sequence](sequence.md): verification-before-claim is
   sequence applied to the final boundary of a unit of work.
-- **kin (boundary)** —
+- **kin** —
   [Dosed Compliance](../compositions/dosed-compliance.md): the dose
   decides whether a gate is built; this principle governs what any
   completion claim must do regardless. The evidence demand takes no

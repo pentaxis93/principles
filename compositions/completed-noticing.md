@@ -30,7 +30,9 @@ and the non-possessive element of Release.
    → [Recursive Improvement](../principles/recursive-improvement.md).
 
 The ordering is owned by [Sequence](../principles/sequence.md): each
-move produces the ground the next requires.
+move produces the ground the next requires. The cycle is the per-act
+projection of the corpus's derived center — the spiral loop the four
+movements close into ([ONTOLOGY §The center](../ONTOLOGY.md#the-center)).
 
 ## What the composition itself owns
 
@@ -70,10 +72,6 @@ Each missing move corrupts the cycle in a named way:
   [Recursive Improvement](../principles/recursive-improvement.md) ·
   [Sequence](../principles/sequence.md). Each constituent carries the
   reciprocal **composition** edge.
-- **kin** — the corpus topology's center (*the center is the spiral*,
-  [form contract](../ONTOLOGY.md#topology)): the four movements traversed as one turn of
-  this cycle. Whether the center is eventually stated as this
-  composition is left to the corpus's own spiral.
 
 ## Sources
 
